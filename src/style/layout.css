@@ -1,0 +1,10 @@
+/* font sizes */
+html { font-size: 80%; }
+h1 { font-size: 2em; }
+
+/* basic structure */
+div#container { margin: 0 auto; }
+
+#navbar ul li { display:inline; margin:0 10px 0 0; }
+#navbar ul li a { color: #333; display:block; float:left; padding:5px; }
+#navbar ul li a:hover { background:#eee; color:black; }

@@ -1,0 +1,23 @@
+default_meta_info:
+  Page:
+    in_menu: true
+    site_title: Damien Pollet
+    site_slogan: >
+      Ma&icirc;tre de conf&eacute;rences,
+      <a href="http://www.univ-lille1.fr">universit&eacute; de Lille 1</a>
+    author: Damien Pollet
+    author_url: http://people.untyped.org/damien.pollet
+    description: >
+      Website of Damien Pollet, Ph.D
+    keywords: >
+      software engineering,
+      programming languages,
+      reengineering,
+      visualisation,
+      virtual machines,
+      object-oriented
+
+default_processing_pipeline:
+  Page: tags,erb,rdiscount,blocks
+
+common.sitemap.used_kinds: [page, directory]

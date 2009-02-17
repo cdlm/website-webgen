@@ -1,0 +1,75 @@
+---
+title: About Me
+routed_title: Home
+---
+<img src="{relocatable: images/damien-pollet-quart128.jpg}" title="Actually I have fewer hairs now ;)" alt="this is me" class="right framed"/>
+# {title:}
+
+<img src="{relocatable: images/ustl-100.png}" title="Université des Sciences et Technologies de Lille 1" alt="Logo USTL" class="right"/>
+<img src="{relocatable: images/telecom-100.png}" title="Telecom Lille 1 – école d'ingénieurs" alt="Logo Telecom" class="right"/>
+<img src="{relocatable: images/inria-100.png}" title="Institut National de Recherche en Informatique et en Automatique" alt="Logo Inria" class="right"/>
+
+I am a _Maître de conférences_ (assistant professor) of the [university of Lille 1][ustl] ([UFR IEEA][ieea]) since september 2008.
+I teach at [Telecom Lille 1][telecom],
+and research at [Inria][] within the [RMoD project-team][rmod].
+
+**previous positions & education**
+
+
+### Research Area
+
+My research domain is software engineering, more precisely software evolution and reengineering.
+
+I want to make software easier to understand and evolve; this is a question with two sides:
+
+- how to understand the design and the evolution of a software system?
+- how to actively support change?
+
+To answer these questions I'm developing:
+
+- new reverse-engineering and visualisation techniques for program comprehension;
+- new development tools and more expressive languages to build evolvable programs.
+
+**shorter**
+
+**Main conferences i publish to, link to list**
+
+
+### Events & Activities
+
+**conference organisation, workshop chair**
+
+**next presence**
+
+**books**
+
+
+### Teaching
+
+**subjects, levels**
+
+**monitored students**
+
+**stages, positions**
+
+
+### Contact
+
+Email: <firstname.lastname@inria.fr>  
+Phone: +33&nbsp;3&nbsp;59&nbsp;57&nbsp;78&nbsp;23  
+Fax : +33&nbsp;3&nbsp;59&nbsp;57&nbsp;79&nbsp;51
+<address>
+Centre de recherche Inria Lille – Nord Europe  
+parc scientifique de la Haute Borne  
+40, avenue Halley, bât A, Park Plaza  
+59650 Villeneuve d'Ascq – France
+</address>
+
+[ustl]: http://www.univ-lille1.fr "Université des Sciences et Technologies de Lille 1"
+[ustl.png]: {relocatable: images/ustl-100.png} "Université des Sciences et Technologies de Lille 1"
+[ieea]: http://ieea.univ-lille1.fr "Unité de Formation et de Recherche d’Informatique, Électronique, Électrotechnique et Automatique"
+[telecom]: http://www.telecom-lille1.eu "Telecom Lille 1 – école d'ingénieurs"
+[telecom.png]: images/telecom-100.png "Telecom Lille 1 – école d'ingénieurs"
+[inria]: http://www.inria.fr "Institut National de Recherche en Informatique et en Automatique"
+[inria.png]: images/inria-100.png "Institut National de Recherche en Informatique et en Automatique"
+[rmod]: http://rmod.lille.inria.fr

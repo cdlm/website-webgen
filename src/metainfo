@@ -1,0 +1,15 @@
+images:
+  index_path: ~
+style:
+  index_path: ~
+
+notes:
+  index_path: notes.html
+publications:
+  index_path: publications.html
+research:
+  index_path: research.html
+sandbox:
+  index_path: sandbox.html
+teaching:
+  index_path: teaching.html

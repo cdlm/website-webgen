@@ -1,0 +1,47 @@
+---
+title: Design Sandbox
+routed_title: Sandbox
+in_menu: false
+---
+# {title:}
+
+<p class="highlight">
+This page is here to test and showcase design elements before using them in visible places on this site.
+</p>
+Fill this file with your *own* data, **I *mean* it!!!**
+
+## Testing what headings look like
+<%= lipsum %>
+
+- and a unordered list
+- With long items, very very long, much longer than a measly single line can contain, thus wrapping and occupying more vertical space than simple tiny list items like:
+  - a subitem
+  - and more	
+- and back to level one
+
+an ordered list :
+
+1. With long items, very very long, much longer than a measly single line can contain, thus wrapping and occupying more vertical space just like above, except here we have a number.
+1. bar
+
+Plus some more text as a quote:
+> <%= lipsum %>
+
+### 3rd-level heading
+Then some “code”:
+    <%= lipsum.gsub '. ', ".\n    " %>
+
+#### the Fourth-LEVEL header of a test
+<%= lipsum %>
+
+##### Fifth-level Title
+<%= lipsum %>
+
+###### Lowest title
+
+This one is inline…
+<%= lipsum %>
+
+<%= lipsum %>
+
+<p class="banner">Hey, pay attention to this great piece of news: my CSS skillz rule =]</p>

@@ -1,0 +1,178 @@
+@import reset.css
+@import layout.css
+@import animations.css
+
+!headings_color = rgb(238, 80, 35)
+!banner_color = rgb(222, 239, 209)
+!highlight_color = rgb(255, 255, 192)
+!link_color = rgb(17, 68, 152)
+!body_link_color = rgb(29, 61, 53)
+variable test
+  :color= !link_color
+
+=right
+  :clear both
+  :float right
+  :margin 1ex -5ex 1ex 2ex
+
+.right
+  +right
+
+.clear
+  :clear both
+  :height 0
+
+.hide
+  :display none
+
+
+.highlight, .banner
+  :margin 2ex -9ex !important
+  :padding 1ex 9ex
+.highlight
+  :background-color rgb(255, 255, 160)
+.banner
+  :background-color rgb(222, 239, 209)
+.framed
+  :background-color white
+  :padding 1px
+  :border 2px solid #ddd
+
+img
+  :margin 1ex
+
+/ blockquote
+/   +right
+/   :max-width 20em
+
+strong
+  :font-weight bold
+  :background-color rgb(255, 214, 20)
+  :padding 0.4ex
+  :margin -0.4ex
+  :-webkit-border-radius 0.5ex
+  :-moz-border-radius 0.5ex
+
+
+em
+  :font inherit
+  :font-style italic
+
+
+body
+  :background-color rgb(95, 166, 68)
+  :margin 1em
+  :font-family "Myriad Pro", Candara, HelveticaNeue, Helvetica, DejaVuSansCondensed, sans-serif
+
+
+a
+  :color rgb(29, 61, 53)
+  :text-decoration none
+
+  &:hover
+    :text-decoration underline
+    :-webkit-animation
+      :name pulse
+      :iteration-count infinite
+      :duration 0.4s
+      :timing-function linear
+      :direction alternate
+
+
+#container
+  :background rgb(72, 142, 69)
+  / url("../images/bamboo-black.png") bottom right no-repeat
+  :padding 2ex 10ex
+  :max-width 55em
+  :-webkit-border-radius 1ex
+  :-moz-border-radius 1ex
+
+
+#main
+  :color black
+  :padding 2ex 9ex
+  :margin 1ex -9ex
+  :background-color white
+  :-webkit-border-radius 1ex
+  :-moz-border-radius 1ex
+
+  a
+    :color rgb(17, 68, 152)
+
+  h1, h2, h3, h4, h5, h6
+    :color rgb(224, 80, 48)
+    :margin 2ex 0 1ex 0
+  h5, h6
+    :font-style italic
+  h1
+    :font-size 250%
+  h2
+    :font-size 180%
+  h3
+    :font-size 130%
+  h6
+    :display run-in
+    :margin-right 1em
+  p
+    :margin 1ex 0 0 0
+  
+  ul
+    :list-style disc
+  ol
+    :list-style decimal
+  ul, ol
+    :padding-left 2em
+    ol
+      :list-style lower-alpha
+
+
+  address
+    :margin 1ex 0
+  blockquote, pre
+    :margin 1ex 2em
+    :padding 1ex
+  pre
+    :background-color #ddd
+    :overflow-x auto
+    :-webkit-border-radius 1ex
+    :-moz-border-radius 1ex
+
+
+#navigation
+
+#pagebottom
+  :max-width 30em
+  :text-align center
+  :opacity 0.5
+  :margin 0 auto
+  :margin-top 1em
+  
+  &:hover
+    :opacity 1
+    :-webkit-transition
+      :property opacity
+      :duration 0.3s
+
+
+/ body > *
+/   :-webkit-animation
+/     :name appear
+/     :duration 0.5s
+/     :timing-function ease
+
+// does not look the same in Firefox
+/ ul
+/   :list-style disc
+/   :padding-left 1.5em
+/   
+/   li
+/     :position relative
+/   
+/   li:before
+/     :content "• "
+/     :position absolute
+/     :top 0
+/     :left -1em
+/   
+/   ul li:before
+/     :content "- "
