@@ -20,4 +20,4 @@ default_meta_info:
 default_processing_pipeline:
   Page: tags,erb,rdiscount,blocks
 
-common.sitemap.used_kinds: [page, directory]
+# common.sitemap.used_kinds: [page, directory]
