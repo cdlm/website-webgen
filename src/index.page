@@ -1,6 +1,7 @@
 ---
 title: About Me
 routed_title: Home
+sort_info: 1
 ---
 <img src="{relocatable: images/damien-pollet-quart128.jpg}" title="Actually I have fewer hairs now ;)" alt="this is me" class="right framed"/>
 # {title:}
@@ -9,11 +10,16 @@ routed_title: Home
 <img src="{relocatable: images/telecom-100.png}" title="Telecom Lille 1 – école d'ingénieurs" alt="Logo Telecom" class="right"/>
 <img src="{relocatable: images/inria-100.png}" title="Institut National de Recherche en Informatique et en Automatique" alt="Logo Inria" class="right"/>
 
-I am a _Maître de conférences_ (assistant professor) of the [university of Lille 1][ustl] ([UFR IEEA][ieea]) since september 2008.
+I am assistant professor (_Maître de conférences_) at the [university of Lille 1][ustl] ([UFR IEEA][ieea]) since september 2008.
+
 I teach at [Telecom Lille 1][telecom],
 and research at [Inria][] within the [RMoD project-team][rmod].
 
-**previous positions & education**
+I received an engineering degree in computer science from [Insa][] in 2001, and obtained my Ph.D in 2005 from the [university of Rennes 1][rennes1], France; my advisor was [Pr. Jean-Marc Jézéquel][jmj]. After a couple post-docs, I was recruited in Lille; for the complete plot twists, feel free to consult my [bio](bio.html).
+
+[insa]: http://www.insa-rennes.fr/?LangueID=2 "Institut National des Sciences Appliquées"
+[rennes1]: http://www.univ-rennes1.fr/english/
+[jmj]: http://www.irisa.fr/prive/jezequel/
 
 
 ### Research Area
@@ -58,11 +64,12 @@ To answer these questions I'm developing:
 Email: <firstname.lastname@inria.fr>  
 Phone: +33&nbsp;3&nbsp;59&nbsp;57&nbsp;78&nbsp;23  
 Fax : +33&nbsp;3&nbsp;59&nbsp;57&nbsp;79&nbsp;51
+
 <address>
-Centre de recherche Inria Lille – Nord Europe  
-parc scientifique de la Haute Borne  
-40, avenue Halley, bât A, Park Plaza  
-59650 Villeneuve d'Ascq – France
+  Centre de recherche Inria Lille – Nord Europe<br/>
+  parc scientifique de la Haute Borne<br/>
+  40, avenue Halley, bât A, Park Plaza<br/>
+  59650 Villeneuve d'Ascq – France
 </address>
 
 [ustl]: http://www.univ-lille1.fr "Université des Sciences et Technologies de Lille 1"

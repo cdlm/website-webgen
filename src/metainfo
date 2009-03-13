@@ -2,3 +2,12 @@ images:
   index_path: ~
 style:
   index_path: ~
+
+publications:
+    sort_info: 2
+research:
+    sort_info: 3
+teaching:
+    sort_info: 4
+notes:
+    sort_info: 5
