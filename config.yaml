@@ -18,6 +18,6 @@ default_meta_info:
       object-oriented
 
 default_processing_pipeline:
-  Page: tags,erb,rdiscount,blocks
+  Page: tags,erb,maruku,blocks
 
 # common.sitemap.used_kinds: [page, directory]
