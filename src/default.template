@@ -25,7 +25,7 @@
 			</div>
 
 			<div id="main">
-				<div id="breadcrumb">{breadcrumb_trail:}</div>
+				<%# <div id="breadcrumb">{breadcrumb_trail:}</div> %>
 				<a id="#maincontent"></a>
 				<webgen:block name="content" />
 				<div class="clear">&nbsp;</div>
