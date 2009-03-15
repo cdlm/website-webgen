@@ -3,8 +3,10 @@ default_meta_info:
     in_menu: true
     site_title: Damien Pollet
     site_slogan: >
-      Ma&icirc;tre de conf&eacute;rences,
-      <a href="http://www.univ-lille1.fr">universit&eacute; de Lille 1</a>
+      Assistant professor,
+      <a href="http://www.univ-lille1.fr">university of Lille 1, France</a>
+      &mdash;
+      object-oriented software engineering, language design, reengineering
     author: Damien Pollet
     author_url: http://people.untyped.org/damien.pollet
     description: >
