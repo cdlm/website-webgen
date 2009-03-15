@@ -19,6 +19,11 @@ Webgen::WebgenTask.new do |website|
   end
 end
 
+desc "Open the home page"
+task :open => :webgen do
+  system 'open out/index.html'
+end
+
 desc "Render the website automatically on changes"
 task :auto_webgen do
   puts 'Starting auto-render mode'
