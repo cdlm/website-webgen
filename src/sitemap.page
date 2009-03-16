@@ -1,6 +1,7 @@
 ---
-title: Sitemap
+title: Site Map
 sort_info: 10
+in_menu: false
 ---
 # {title:}
 {sitemap:}

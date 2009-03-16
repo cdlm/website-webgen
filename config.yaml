@@ -5,8 +5,8 @@ default_meta_info:
     site_slogan: >
       Assistant professor,
       <a href="http://www.univ-lille1.fr">university of Lille 1, France</a>
-      &mdash;
-      object-oriented software engineering, language design, reengineering
+      <br/>
+      <em>object-oriented software (re)engineering &amp; language design</em>
     author: Damien Pollet
     author_url: http://people.untyped.org/damien.pollet
     description: >

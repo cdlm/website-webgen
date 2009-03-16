@@ -2,18 +2,28 @@
 @import layout.css
 @import animations.css
 
-!headings_color = rgb(238, 80, 35)
-!banner_color = rgb(222, 239, 209)
-!highlight_color = rgb(255, 255, 192)
-!link_color = rgb(17, 68, 152)
+!body_color = rgb(95, 166, 68)
+!body_alt_color = rgb(72, 142, 69)
 !body_link_color = rgb(29, 61, 53)
-variable test
-  :color= !link_color
+
+!headings_color = rgb(238, 80, 35)
+!link_color = rgb(17, 68, 152)
+
+!banner_color = rgb(222, 239, 209)
+!highlight_color = rgb(255, 255, 160)
+!marker_color = rgb(255, 214, 20)
 
 =right
   :clear both
   :float right
   :margin 1ex -5ex 1ex 2ex
+
+=marker
+  :padding 0.4ex
+  :margin -0.4ex
+  :-webkit-border-radius 0.5ex
+  :-moz-border-radius 0.5ex
+
 
 .right
   +right
@@ -30,13 +40,15 @@ variable test
   :margin 2ex -9ex !important
   :padding 1ex 9ex
 .highlight
-  :background-color rgb(255, 255, 160)
+  :background-color = !highlight_color
 .banner
-  :background-color rgb(222, 239, 209)
+  :background-color = !banner_color
 .framed
   :background-color white
   :padding 1px
   :border 2px solid #ddd
+.noframe
+  :padding 3px
 
 img
   :margin 1ex
@@ -45,22 +57,26 @@ img
 /   +right
 /   :max-width 20em
 
-strong
-  :font-weight bold
-  :background-color rgb(255, 214, 20)
-  :padding 0.4ex
-  :margin -0.4ex
-  :-webkit-border-radius 0.5ex
-  :-moz-border-radius 0.5ex
-
-
 em
   :font inherit
   :font-style italic
 
+strong
+  :font-weight bold
+  
+strong.marker
+  +marker
+  :background-color = !marker_color
+
+.todo
+  +marker
+  :background-color = !marker_color
+  :white-space pre-line
+
+
 
 body
-  :background-color rgb(95, 166, 68)
+  :background-color = !body_color
   :margin 1em
   :font-family "Myriad Pro", Candara, HelveticaNeue, Helvetica, DejaVuSansCondensed, sans-serif
 
@@ -80,10 +96,9 @@ a
 
 
 #container
-  :background rgb(72, 142, 69)
-  / url("../images/bamboo-black.png") bottom right no-repeat
+  :background = !body_alt_color
   :padding 2ex 10ex
-  :max-width 55em
+  :max-width 50em
   :-webkit-border-radius 1ex
   :-moz-border-radius 1ex
 
@@ -91,7 +106,7 @@ a
 #main
   :color black
   :padding 2ex 9ex
-  :margin 1ex -9ex
+  :margin 0 -9ex
   :background-color white
   :-webkit-border-radius 1ex
   :-moz-border-radius 1ex
@@ -110,7 +125,7 @@ a
     :font-size 180%
   h3
     :font-size 130%
-  h6
+  h5, h6
     :display run-in
     :margin-right 1em
   p
@@ -138,14 +153,51 @@ a
     :-moz-border-radius 1ex
 
 
+#header
+  :margin-bottom 1ex
+  h1
+    :float left
+    :font-size 200%
+    a
+      :color black
+  #tagline
+    :float right
+    :text-align right
+    :margin-left 9ex
+
+
+#menu
+  :margin 0.5ex -1ex -2ex -1ex
+  :padding 0
+
+  a
+    :color black
+    
+  ul
+    :display block
+    :list-style none
+    :margin 0
+    :padding 0
+
+  li
+    :display inline-block
+    :margin 0 1ex 0 0
+    :padding 0.5ex 1ex 0 1ex
+    :border-bottom 1ex solid white
+        
+  li.webgen-menu-item-selected, li.webgen-menu-submenu-inhierarchy
+    :border-color = !headings_color
+    :color white
+
+
 #navigation
 
 #pagebottom
-  :max-width 30em
   :text-align center
   :opacity 0.5
   :margin 0 auto
   :margin-top 1em
+  / :max-width 30em
   
   &:hover
     :opacity 1

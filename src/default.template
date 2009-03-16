@@ -21,7 +21,9 @@
 		<div id="container">
 			<div id="header">
 				<h1><a href="{relocatable: /index.html}" accesskey="4">{site_title:}</a></h1>
-				<span id="tagline">{site_slogan:}</span>
+				<div id="tagline">{site_slogan:}</div>
+				<div class="clear">&nbsp;</div>
+				<div id="menu">{menu: {max_levels: 1}}</div>
 			</div>
 
 			<div id="main">
@@ -31,13 +33,12 @@
 				<div class="clear">&nbsp;</div>
 			</div>
 
+			<%#
 			<div id="navigation">
-
-				<h2 class="sidelink menuheader"><a id="sitemenu"></a>Menu:</h2>
-				<div id="menu">{menu: {max_levels: 1}}</div>
-				
+				<a href="{relocatable: /sitemap.html}">Site map</a>
 				<a class="hide" href="#top" accesskey="1">Top of page</a>
 			</div>
+			%>
 			<div class="clear">&nbsp;</div>
 		</div>
 
@@ -46,10 +47,12 @@
 				<a href="http://webgen.rubyforge.org/">webgen</a>,
 				<a href="http://haml.hamptoncatlin.com/">sass</a>,
 				<a href="http://daringfireball.net/projects/markdown/">markdown</a>,
-				<a href="http://www.ruby-lang.org/en/">ruby</a>&hellip;</p>
-			<p>
-				<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/"><img alt="Creative Commons License" style="margin-top:1ex;border-width:0" src="http://i.creativecommons.org/l/by-sa/2.0/fr/80x15.png" /></a><br /><span xmlns:dc="http://purl.org/dc/elements/1.1/" property="dc:title">This website</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://people.untyped.org/damien.pollet" property="cc:attributionName" rel="cc:attributionURL">Damien Pollet</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/">Creative Commons Attribution-Share Alike 2.0 France License</a>.
-				</p>
+				<a href="http://www.ruby-lang.org/en/">ruby</a>&hellip;
+				<br/>
+				<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/"></a> <span xmlns:dc="http://purl.org/dc/elements/1.1/" property="dc:title">This website</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://people.untyped.org/damien.pollet" property="cc:attributionName" rel="cc:attributionURL">Damien Pollet</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/">Creative Commons Attribution-Share Alike 2.0 France License</a>.
+				<br/>
+				<img alt="Creative Commons License" style="margin-top:1ex;border-width:0" src="http://i.creativecommons.org/l/by-sa/2.0/fr/80x15.png" />
+			</p>
 		</div>
 
 	</body>

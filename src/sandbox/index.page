@@ -5,9 +5,9 @@ in_menu: false
 ---
 # {title:}
 
-<p class="highlight">
 This page is here to test and showcase design elements before using them in visible places on this site.
-</p>
+{: .highlight}
+
 Fill this file with your *own* data, **I *mean* it!!!**
 
 ## Testing what headings look like
@@ -35,13 +35,14 @@ Then some “code”:
 <%= lipsum %>
 
 ##### Fifth-level Title
-<%= lipsum %>
-
-###### Lowest title
-
 This one is inline…
 <%= lipsum %>
 
+###### Lowest title
+This one is not that useful.
 <%= lipsum %>
 
-<p class="banner">Hey, pay attention to this great piece of news: my CSS skillz rule =]</p>
+<%= lipsum %>
+
+Hey, pay attention to this great piece of news: my CSS skillz rule =]
+{: .banner}
