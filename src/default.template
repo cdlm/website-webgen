@@ -23,6 +23,7 @@
 				<h1><a href="{relocatable: /index.html}" accesskey="4">{site_title:}</a></h1>
 				<div id="tagline">{site_slogan:}</div>
 				<div class="clear">&nbsp;</div>
+				<div id="langbar">{langbar:}</div>
 				<div id="menu">{menu: {max_levels: 1}}</div>
 			</div>
 

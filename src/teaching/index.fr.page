@@ -1,0 +1,33 @@
+---
+title: Enseignement
+routed_title: Enseignement
+---
+# {title:}
+
+french version
+list of topics, modules, options  
+coordination, coordinators
+links for students, materials
+{: .todo}
+
+## Telecom
+
+### Architecture des ordinateurs (A23)
+
+**TD, TP Borland Turbo-C**
+[Intranet A23](http://wapiti.telecom-lille1.eu/commun/ens/peda/modules/A23/index.htm)
+
+### Conception et programmation orientées objet (A43)
+
+**TD, TP, Eclipse**
+[Intranet A43](http://wapiti.telecom-lille1.eu/commun/ens/peda/modules/A43/)
+
+### Introduction aux algorithmes (B23)
+
+**C**
+[Intranet B23](http://wapiti.telecom-lille1.eu/commun/ens/peda/modules/B23/index.html)
+
+### Programmation d'applications réparties (TA3)
+
+**Java RMI, servlets**
+[Intranet TA3](http://wapiti.telecom-lille1.eu/Commun/ens/peda/modules/TA3/index.htm)

@@ -16,7 +16,7 @@
 =right
   :clear both
   :float right
-  :margin 1ex -5ex 1ex 2ex
+  :margin 2ex -5ex 2ex 4ex
 
 =marker
   :padding 0.4ex
@@ -189,6 +189,12 @@ a
     :border-color = !headings_color
     :color white
 
+
+#langbar
+  :margin 0.5ex -7ex -2ex 0
+  :float right
+  / margin: 0 -7ex 
+  / text-transform: uppercase
 
 #navigation
 

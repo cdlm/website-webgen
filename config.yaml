@@ -22,4 +22,8 @@ default_meta_info:
 default_processing_pipeline:
   Page: tags,erb,maruku,blocks
 
+website.lang: en
+tag.langbar.show_single_lang: false
+tag.langbar.separator: " · "
+# common.sitemap.any_lang: true
 # common.sitemap.used_kinds: [page, directory]
