@@ -13,10 +13,14 @@
 !highlight_color = rgb(255, 255, 160)
 !marker_color = rgb(255, 214, 20)
 
+=rounded
+  :-webkit-border-radius 0.5em
+  :-moz-border-radius 0.5em
+
 =right
   :clear both
   :float right
-  :margin 2ex -5ex 2ex 4ex
+  :margin 1em -12.5em 1em 2em
 
 =marker
   :padding 0.4ex
@@ -28,6 +32,10 @@
 .right
   +right
 
+  p
+    :max-width 10em
+    :font-size smaller
+
 .clear
   :clear both
   :height 0
@@ -37,8 +45,8 @@
 
 
 .highlight, .banner
-  :margin 2ex -9ex !important
-  :padding 1ex 9ex
+  :margin 1em -4.5em !important
+  :padding 1ex 4.5em
 .highlight
   :background-color = !highlight_color
 .banner
@@ -97,20 +105,18 @@ a
 
 #container
   :background = !body_alt_color
-  :padding 2ex 10ex
   :max-width 50em
-  :-webkit-border-radius 1ex
-  :-moz-border-radius 1ex
+  :padding 1em 5em 1em 5em
+  +rounded
 
 
 #main
   :color black
-  :padding 2ex 9ex
-  :margin 0 -9ex
+  :padding 1em 14.5em 1em 4.5em
+  :margin 0 -4.5em
   :background-color white
-  :-webkit-border-radius 1ex
-  :-moz-border-radius 1ex
-
+  +rounded
+  
   a
     :color rgb(17, 68, 152)
 
@@ -149,12 +155,11 @@ a
   pre
     :background-color #ddd
     :overflow-x auto
-    :-webkit-border-radius 1ex
-    :-moz-border-radius 1ex
+    +rounded
 
 
 #header
-  :margin-bottom 1ex
+  :margin 0 -3.5em 1ex 0
   h1
     :float left
     :font-size 200%
@@ -167,8 +172,9 @@ a
 
 
 #menu
-  :margin 0.5ex -1ex -2ex -1ex
+  :margin 1ex -1ex -2ex -1ex
   :padding 0
+  :float left
 
   a
     :color black
@@ -183,7 +189,7 @@ a
     :display inline-block
     :margin 0 1ex 0 0
     :padding 0.5ex 1ex 0 1ex
-    :border-bottom 1ex solid white
+    :border-bottom 1ex solid transparent
         
   li.webgen-menu-item-selected, li.webgen-menu-submenu-inhierarchy
     :border-color = !headings_color
@@ -191,8 +197,9 @@ a
 
 
 #langbar
-  :margin 0.5ex -7ex -2ex 0
+  :margin 1.5ex 0 -2ex 0
   :float right
+  / :font-size smaller
   / margin: 0 -7ex 
   / text-transform: uppercase
 
