@@ -5,12 +5,18 @@ in_menu: false
 ---
 # {title:}
 
-This page is here to test and showcase design elements before using them in visible places on this site.
+This page is here to test and showcase design elements before using them in visible places on this site.[^foot]
 {: .highlight}
 
-Fill this file with your *own* data, **I *mean* it!!!**
+[^foot]: Such as, Maruku's footnotes[^cool]
+[^cool]: Aren't they cute?  
+They can take several lines, but only one &para;!
 
 ## Testing what headings look like
+
+Lipsum is for dummies, fill this file with your *own* data, **I *mean* it!!!**
+{: .right}
+
 <%= lipsum %>
 
 - and a unordered list

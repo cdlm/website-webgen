@@ -20,7 +20,7 @@
 =right
   :clear both
   :float right
-  :margin 1em -12.5em 1em 2em
+  :margin 0 -12.5em 1em 2em
 
 =marker
   :padding 0.4ex
@@ -29,58 +29,12 @@
   :-moz-border-radius 0.5ex
 
 
-.right
-  +right
-
-  p
-    :max-width 10em
-    :font-size smaller
-
 .clear
   :clear both
   :height 0
 
 .hide
   :display none
-
-
-.highlight, .banner
-  :margin 1em -4.5em !important
-  :padding 1ex 4.5em
-.highlight
-  :background-color = !highlight_color
-.banner
-  :background-color = !banner_color
-.framed
-  :background-color white
-  :padding 1px
-  :border 2px solid #ddd
-.noframe
-  :padding 3px
-
-img
-  :margin 1ex
-
-/ blockquote
-/   +right
-/   :max-width 20em
-
-em
-  :font inherit
-  :font-style italic
-
-strong
-  :font-weight bold
-  
-strong.marker
-  +marker
-  :background-color = !marker_color
-
-.todo
-  +marker
-  :background-color = !marker_color
-  :white-space pre-line
-
 
 
 body
@@ -135,8 +89,7 @@ a
     :display run-in
     :margin-right 1em
   p
-    :margin 1ex 0 0 0
-  
+    :margin-bottom 1ex
   ul
     :list-style disc
   ol
@@ -157,6 +110,63 @@ a
     :overflow-x auto
     +rounded
 
+
+.highlight, .banner
+  :margin 1em -1.5em 1em -4.5em !important
+  :padding 1ex 1.5em 1ex 4.5em
+.highlight
+  :background-color = !highlight_color
+.banner
+  :background-color = !banner_color
+.framed
+  :background-color white
+  :padding 1px
+  :border 2px solid #ddd
+.noframe
+  :padding 3px
+
+.right
+  +right
+p.right
+  :max-width 10em
+  :color #999
+  
+
+img
+  :margin 1ex
+
+/ blockquote
+/   +right
+/   :max-width 20em
+
+em
+  :font inherit
+  :font-style italic
+
+strong
+  :font-weight bold
+
+strong.marker
+  +marker
+  :background-color = !marker_color
+
+.todo
+  +marker
+  :background-color = !marker_color
+  :white-space pre-line
+
+.footnotes
+  :font-size smaller
+  hr
+    :width 50%
+    :height 1px
+    :margin-left 0
+    :border none
+    :background-color #666
+  p
+    :display inline
+  a[rev="footnote"]
+    :padding-left 1em
 
 #header
   :margin 0 -3.5em 1ex 0
