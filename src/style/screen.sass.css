@@ -20,7 +20,7 @@
 =right
   :clear both
   :float right
-  :margin 0 -12.5em 1em 2em
+  :margin 0 -12.5em 2em 2em
 
 =marker
   :padding 0.4ex
@@ -119,9 +119,9 @@ a
 .banner
   :background-color = !banner_color
 .framed
-  :background-color white
+  :background-color #aaa
   :padding 1px
-  :border 2px solid #ddd
+  :border 1px solid #ddd
 .noframe
   :padding 3px
 
@@ -134,6 +134,8 @@ p.right
 
 img
   :margin 1ex
+a img
+  :margin 0
 
 / blockquote
 /   +right
@@ -216,6 +218,7 @@ strong.marker
 #navigation
 
 #pagebottom
+  :font-size smaller
   :text-align center
   :opacity 0.5
   :margin 0 auto
