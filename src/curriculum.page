@@ -1,9 +1,13 @@
 ---
-title: Bio
-in_menu: false
-sort_info: 1.1
+title: CV
+sort_info: 9
 ---
-# Previous lives…
+# Curriculum
+
+## Current position
+
+### 2008--present: USTL, Lille (assistant professor)
+
 
 
 ## Post-docs
@@ -36,6 +40,9 @@ Smalltalk, architecture extraction, software visualization
 
 ### 2005: Irisa, Rennes (PhD)
 
+my advisor was [Pr. Jean-Marc Jézéquel][jmj]
+menrt fellowship
+
 triskell, inria
 Eiffel, UML, Java, meta-modeling, model transformation, kermeta
 
@@ -44,3 +51,7 @@ teaching
 ### 2001: Insa, Rennes (CS engineering)
 
 DEA/master, gerson
+
+[triskell]: http://www.irisa.fr/triskell
+[jmj]: http://www.irisa.fr/prive/jezequel/
+[gerson]: http://www.sciences.univ-nantes.fr/lina/gdd/members/sunye

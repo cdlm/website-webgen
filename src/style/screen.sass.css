@@ -6,7 +6,7 @@
 !body_alt_color = rgb(72, 142, 69)
 !body_link_color = rgb(29, 61, 53)
 
-!headings_color = rgb(238, 80, 35)
+!headings_color = rgb(224, 80, 48)
 !link_color = rgb(17, 68, 152)
 
 !banner_color = rgb(222, 239, 209)
@@ -75,7 +75,7 @@ a
     :color rgb(17, 68, 152)
 
   h1, h2, h3, h4, h5, h6
-    :color rgb(224, 80, 48)
+    :color = !headings_color
     :margin 2ex 0 1ex 0
   h5, h6
     :font-style italic
