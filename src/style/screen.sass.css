@@ -23,8 +23,8 @@
   :margin 0 -12.5em 2em 2em
 
 =marker
-  :padding 0.4ex
-  :margin -0.4ex
+  :padding 0.2ex 0.4ex
+  :margin -0.2ex -0.4ex
   :-webkit-border-radius 0.5ex
   :-moz-border-radius 0.5ex
 
@@ -41,6 +41,8 @@ body
   :background-color = !body_color
   :margin 1em
   :font-family "Myriad Pro", Candara, HelveticaNeue, Helvetica, DejaVuSansCondensed, sans-serif
+  / :font-family "Museo", "Myriad Pro", Candara, HelveticaNeue, Helvetica, DejaVuSansCondensed, sans-serif
+  :line-height 1.3
 
 
 a
