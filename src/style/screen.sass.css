@@ -64,6 +64,7 @@ a
   :max-width 50em
   :padding 1em 5em 1em 5em
   +rounded
+  :-webkit-box-shadow 0 0 1ex rgb(120, 180, 80)
 
 
 #main
