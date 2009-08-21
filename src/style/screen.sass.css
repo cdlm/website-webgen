@@ -102,6 +102,23 @@ a
     ol
       :list-style lower-alpha
 
+  dl
+    :margin-left 1em
+    dt
+      :display run-in
+      :font-weight bold
+      :margin-left -1em
+      :margin-right 1em
+    dt + dt
+      :margin-left 0
+    dd
+      :display inline-block
+      
+  hr
+    :width 75%
+    :height 1px
+    :border none
+    :background-color #666
 
   address
     :margin 1ex 0
@@ -164,10 +181,7 @@ strong.marker
   :font-size smaller
   hr
     :width 50%
-    :height 1px
     :margin-left 0
-    :border none
-    :background-color #666
   p
     :display inline
   a[rev="footnote"]
