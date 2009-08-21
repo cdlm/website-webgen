@@ -18,9 +18,14 @@
   :-moz-border-radius 0.5em
 
 =right
-  :clear both
+  :clear right
   :float right
   :margin 0 -12.5em 2em 2em
+
+=left
+  :clear left
+  :float left
+  :margin 0 2em 2em -12.5em
 
 =marker
   :padding 0.2ex 0.4ex
@@ -61,7 +66,7 @@ a
 
 #container
   :background = !body_alt_color
-  :max-width 50em
+  :max-width 60em
   :padding 1em 5em 1em 5em
   +rounded
   :-webkit-box-shadow 0 0 1ex rgb(120, 180, 80)
@@ -69,7 +74,7 @@ a
 
 #main
   :color black
-  :padding 1em 14.5em 1em 4.5em
+  :padding 2em 14.5em 1em 14.5em
   :margin 0 -4.5em
   :background-color white
   +rounded
@@ -144,13 +149,17 @@ a
   :border 1px solid #ddd
 .noframe
   :padding 3px
+.framed, .noframe
+  :margin 0 0 1em 0
 
 .right
   +right
-p.right
+.left
+  +left
+p.right, p.left
   :max-width 10em
   :color #999
-  
+
 
 img
   :margin 1ex
