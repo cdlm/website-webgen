@@ -5,6 +5,19 @@ sort_info: 3
 ---
 # {title:}
 
+
+### Research Area
+
+My research domain is software engineering, more precisely software **evolution** and **reengineering**.
+I'm interested in making tools to better understand software, and to actively support its evolution:
+
+- new reverse-engineering and visualisation techniques for program comprehension;
+- new development tools and more expressive languages to build evolvable programs.
+
+Main conferences i publish to, link to list
+{: .todo}
+
+
 ### Conference Organization
 
 wcre 2009

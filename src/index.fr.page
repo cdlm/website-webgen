@@ -3,45 +3,42 @@ title: Accueil
 sort_info: 1
 ---
 ![Portrait]({relocatable: images/damien-pollet-quart128.jpg} "Hello :)"){: .right .framed}
-![Logo USTL]({relocatable: images/ustl-128.jpg} "Université des Sciences et Technologies de Lille 1"){: .right .noframe}
-![Logo Telecom]({relocatable: images/telecom-128.jpg} "Telecom Lille 1 – école d'ingénieurs"){: .right .noframe}
-![Logo Inria]({relocatable: images/inria-128.png} "Institut National de Recherche en Informatique et en Automatique"){: .right .noframe}
-
-<!-- <img src="{relocatable: images/ustl-128.jpg}" title="Université des Sciences et Technologies de Lille 1" alt="Logo USTL" class="right noframe"/>
-<img src="{relocatable: images/telecom-128.jpg}" title="Telecom Lille 1 – école d'ingénieurs" alt="Logo Telecom" class="right noframe"/>
-<img src="{relocatable: images/inria-128.png}" title="Institut National de Recherche en Informatique et en Automatique" alt="Logo Inria" class="right noframe"/> -->
+[![Logo USTL]({relocatable: images/ustl-128.jpg} "Université des Sciences et Technologies de Lille 1"){: .right .noframe}][ustl]
+[![Logo Telecom]({relocatable: images/telecom-128.jpg} "Telecom Lille 1 – école d'ingénieurs"){: .right .noframe}][telecom]
+[![Logo Inria]({relocatable: images/inria-128.png} "Institut National de Recherche en Informatique et en Automatique"){: .right .noframe}][inria]
+[![Squeak by Example cover]({relocatable: images/sbe-128.jpg} "Squeak by Example"){: .right .framed}][sbe]
 
 I am assistant professor (_Maître de conférences_) at the [university of Lille 1][ustl] ([UFR IEEA][ieea]) since september 2008.
 
-I teach at [Telecom Lille 1][telecom],
-and research at [Inria][] within the [RMoD project-team][rmod].
+I [teach](./teaching) programming and software engineering at [Telecom Lille 1][telecom],
+and [research](./research) on reengineering at [Inria][] within the [RMoD project-team][rmod].
 
-I'm a co-author of the book [Squeak by Example][sbe].
+I'm a co-author of the open-source book [Squeak by Example][sbe].
 
-##### Education
-I received an engineering degree in computer science from [Insa][] in 2001, and obtained my Ph.D in 2005 from the [university of Rennes 1][rennes1], France; my advisor was [Pr. Jean-Marc Jézéquel][jmj]. After a couple post-docs, I was recruited in Lille; for the complete plot twists, feel free to consult my [bio](bio.html).
+##### Curriculum
+I received an engineering degree in computer science from [Insa][] in 2001, and obtained my Ph.D in 2005 from the [university of Rennes 1][rennes1], France ([details here](curriculum.html)).
 
-[sbe]: http://www.squeakbyexample.org/
+[sbe]: http://www.squeakbyexample.org/ "Squeak by Example"
 [insa]: http://www.insa-rennes.fr/?LangueID=2 "Institut National des Sciences Appliquées"
 [rennes1]: http://www.univ-rennes1.fr/english/
-[jmj]: http://www.irisa.fr/prive/jezequel/
 
 
-## Currently…
-
-### Research Area
-
-My research domain is software engineering, more precisely software **evolution** and **reengineering**.
-I'm interested in making tools to better understand software, and to actively support its evolution:
-
-- new reverse-engineering and visualisation techniques for program comprehension;
-- new development tools and more expressive languages to build evolvable programs.
-
-Main conferences i publish to, link to list
-{: .todo}
+## Events & Activities
 
 
-### Events & Activities
+##### ESUG 2009 --- August 31--September 4, Brest, France.
+I'm attending the [2009 International Smalltalk Conference][ist] and joint workshop [IWST'09][], organized by [ESUG][].
+
+[ESUG]: http://www.esug.org "European Smalltalk User Group"
+[ist]: http://www.esug.org/Conferences/2009
+[IWST'09]: http://www.esug.org/Conferences/2009/InternationalWorkshop "International Workshop on Smalltalk Technologies"
+
+
+##### WCRE 2009 --- October 13--16, Lille, France.
+We will host the [16th Working Conference on Reverse Engineering][wcre09], for which I chair the workshops with [Yann-Gaël Guéhéneuc](http://www.yann-gael.gueheneuc.net/).
+
+[wcre09]: http://web.soccerlab.polymtl.ca/wcre2009/
+
 
 conference organisation, workshop chair  
 next presence  
@@ -49,28 +46,28 @@ books
 {: .todo}
 
 
-### Teaching
-
-subjects, levels  
-monitored students  
-stages, positions
-{: .todo}
-
-
+<div class="clear"></div>
 <div class="right noframe">
   <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;s=AARTsJrQueg5mnaJ0cXqq9vmy7GjJG9pXQ&amp;msa=0&amp;msid=102439886615292055767.0004655293500ba265f74&amp;ll=50.609225,3.141146&amp;spn=0.016341,0.025749&amp;z=14&amp;output=embed">
   </iframe>
 </div>
 
-### Contact
 
-Email: <firstname.lastname@inria.fr>  
-Phone: +33&nbsp;3&nbsp;59&nbsp;57&nbsp;78&nbsp;23  
-Fax: +33&nbsp;3&nbsp;59&nbsp;57&nbsp;79&nbsp;51
+## Contact
 
-##### Surface mail
-Note that *we are not located in the Inria building*.
-Our offices are in the [Lifl][] building (please refer to the [larger map][map]).
+Email
+: research {mailto: damien.pollet@inria.fr}
+: teaching {mailto: damien.pollet@telecom-lille1.eu}
+
+Phone
+: +33&nbsp;3&nbsp;20&nbsp;43&nbsp;40&nbsp;01
+
+Fax
+: +33&nbsp;3&nbsp;59&nbsp;57&nbsp;79&nbsp;51
+
+Assistant/Secretary
+: Marie-Bénédicte Dernoncourt +33&nbsp;3&nbsp;59&nbsp;57&nbsp;79&nbsp;45
+
 <address>
   Centre de recherche Inria Lille – Nord Europe<br/>
   parc scientifique de la Haute Borne<br/>
@@ -78,10 +75,25 @@ Our offices are in the [Lifl][] building (please refer to the [larger map][map])
   59650 Villeneuve d'Ascq – France
 </address>
 
+##### How to find us on the campus
+RMoD members are **not** located in the Inria building.
+Our offices are at [Lifl][], in the M3 building (please refer to the [larger map][map]).
+My office is M3–117.
+
+##### Web presence
+[ACM](http://portal.acm.org/author_page.cfm?id=81100098681 "Association for Computing Machinery"),
+[DBLP](http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/p/Pollet:Damien.html),
+[CiteseerX](http://citeseerx.ist.psu.edu/search?q=damien+pollet&submit=Search&sort=cite&t=auth),
+[Google Scholar](http://scholar.google.com/scholar?q=damien%20pollet),
+[citeulike](http://www.citeulike.org/user/dpollet),
+[LinkedIn](http://www.linkedin.com/in/damienpollet),
+[Facebook](http://www.facebook.com/damien.pollet),
+[Flickr](http://www.flickr.com/photos/damienpollet/)
+
 
 [ustl]: http://www.univ-lille1.fr "Université des Sciences et Technologies de Lille 1"
 [ieea]: http://ieea.univ-lille1.fr "Unité de Formation et de Recherche d’Informatique, Électronique, Électrotechnique et Automatique"
-[telecom]: http://www.telecom-lille1.eu "Telecom Lille 1 – école d'ingénieurs"
+[telecom]: http://www.telecom-lille1.eu "Telecom Lille 1 – engineering school"
 [inria]: http://www.inria.fr "Institut National de Recherche en Informatique et en Automatique"
 [rmod]: http://rmod.lille.inria.fr "RMoD team web pages"
 [lifl]: http://www.lifl.fr/index.en.html "Laboratoire d'Informatique Fondamentale de Lille"

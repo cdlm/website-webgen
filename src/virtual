@@ -1,0 +1,9 @@
+\--- !omap
+- contact.en.html:
+    in_menu: true
+    sort_info: 11
+    url: index.html#contact
+- contact.fr.html:
+    in_menu: true
+    sort_info: 11
+    url: index.fr.html#contact
