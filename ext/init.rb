@@ -6,3 +6,4 @@
 # If you don't need this feature you can savely delete this file and the directory in which it is!
 
 require 'ext/lipsum'
+require 'ext/mailto'
