@@ -5,7 +5,7 @@ in_menu: false
 ---
 # {title:}
 
-This page is here to test and showcase design elements before using them in visible places on this site.[^foot]
+This page is here to test and showcase design elements before using them in visible places on this site.[^foot] Also, consider the [amount of stuff still to do](todo).
 {: .highlight}
 
 [^foot]: Such as, Maruku's footnotes[^cool]
@@ -25,16 +25,28 @@ Lipsum is for dummies, fill this file with your *own* data, **I *mean* it!!!**
   - and more	
 - and back to level one
 
-an ordered list :
+An ordered list:
 
 1. With long items, very very long, much longer than a measly single line can contain, thus wrapping and occupying more vertical space just like above, except here we have a number.
 1. bar
+
+Also description lists are possible:
+
+Foo
+: fouh
+: phoo
+
+Bar
+Bahrr
+: barre,
+still barre
 
 Plus some more text as a quote:
 > <%= lipsum %>
 
 ### 3rd-level heading
 Then some “code”:
+
     <%= lipsum.gsub '. ', ".\n    " %>
 
 #### the Fourth-LEVEL header of a test
