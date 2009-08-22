@@ -8,14 +8,33 @@ This dummy page is also here so that <code>index.html</code> does not feel alone
 {: .highlight}
 
 
+## Code and support
+
+* integrate hyphenator
+* system to add entries automatically
+* re-generate the list of publications from bibtex
+* flash the contact info
+* list of pages for the notes, to complement an arbitrary presentation
+
+
 ## Content to add
+
+* All the french
 
 ##### index
 * accepted papers
 * next presence  
 * books
 
+##### publications
+* page structure
 
-## Code and support
+##### research
+* all activities
 
-* system to add entries automatically
+##### teaching
+* current teaching vs. archives
+* what more than links to wapiti?
+
+##### curriculum
+* fill details
