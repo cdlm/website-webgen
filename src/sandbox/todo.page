@@ -1,0 +1,21 @@
+---
+title: Ideas for this site
+in_menu: false
+---
+# {title:}
+
+This dummy page is also here so that <code>index.html</code> does not feel alone in his directory.
+{: .highlight}
+
+
+## Content to add
+
+##### index
+* accepted papers
+* next presence  
+* books
+
+
+## Code and support
+
+* system to add entries automatically
