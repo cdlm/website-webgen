@@ -19,7 +19,7 @@ default_meta_info:
       object-oriented
 
 default_processing_pipeline:
-  Page: tags,erb,maruku,blocks
+  Page: tags,erb,maruku,blocks,head
 
 website.lang: en
 tag.langbar.show_single_lang: false

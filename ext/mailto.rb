@@ -3,7 +3,7 @@ class Mailto
   include Webgen::WebsiteAccess
   
   website.config['contentprocessor.tags.map']['mailto'] = 'Mailto'
-  website.config.mailto.email nil,
+  website.config.mailto.to nil,
     :doc => 'The destination email address. Mandatory.',
     :mandatory => 'default'
   website.config.mailto.link nil,
@@ -12,7 +12,7 @@ class Mailto
     :doc => 'The subject of the mail message. Optional.'
 
   def call( tag, body, context )
-    email = encode_email(param('mailto.email'))
+    email = encode_email(param('mailto.to'))
     link = param('mailto.link') || email
     subject = param('mailto.subject')
     html = "<a href='mailto:#{email}#{'?subject=' + subject unless subject.nil?}'>#{link}</a>"

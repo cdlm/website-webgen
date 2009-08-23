@@ -7,3 +7,4 @@
 
 require 'ext/lipsum'
 require 'ext/mailto'
+require 'ext/randomimg'

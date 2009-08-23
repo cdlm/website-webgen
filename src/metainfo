@@ -1,7 +1,7 @@
 images:
-  index_path: ~
+    index_path: ~
 style:
-  index_path: ~
+    index_path: ~
 
 publications:
     sort_info: 2
