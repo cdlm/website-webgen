@@ -7,8 +7,8 @@
 		<meta name="keywords" content="{keywords:}" />
 		<meta name="author" content="{author:}" />
 		<meta name="generator" content="webgen - http://webgen.rubyforge.org" />
-		<link rel="stylesheet" type="text/css" href="{relocatable: /style/screen.css}" media="screen,projection" />
-		<link rel="stylesheet" type="text/css" href="{relocatable: /style/print.css}" media="print" />
+		<link rel="stylesheet" type="text/css" href="{relocatable: /stylesheets/screen.css}" media="screen,projection" />
+		<link rel="stylesheet" type="text/css" href="{relocatable: /stylesheets/print.css}" media="print" />
 		<title>{site_title:} — {title:}</title>
 	</head>
 
