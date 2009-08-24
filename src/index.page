@@ -14,8 +14,8 @@ sort_info: 1
 
 I am assistant professor (_Maître de conférences_) at the [university of Lille 1][ustl] ([UFR IEEA][ieea]) since september 2008.
 
-I [teach](./teaching) programming and software engineering at [Telecom Lille 1][telecom],
-and [research](./research) on reengineering at [Inria][] within the [RMoD project-team][rmod].
+I [teach](teaching/index.html) programming and software engineering at [Telecom Lille 1][telecom],
+and [research](./research.html) on reengineering at [Inria][] within the [RMoD project-team][rmod].
 
 I'm a co-author of the open-source book [Squeak by Example][sbe].
 
@@ -27,7 +27,7 @@ I received an engineering degree in computer science from [Insa][] in 2001, and 
 [rennes1]: http://www.univ-rennes1.fr/english/
 
 
-## Events & Activities
+## Upcoming Events
 
 
 ###### ESUG 2009 --- August 31--September 4, Brest, France.
@@ -39,16 +39,31 @@ I'm attending the [2009 International Smalltalk Conference][ist] and joint works
 
 
 ###### WCRE 2009 --- October 13--16, Lille, France.
-We will host the [16th Working Conference on Reverse Engineering][wcre09], for which I chair the workshops with [Yann-Gaël Guéhéneuc](http://www.yann-gael.gueheneuc.net/).
+We are hosting the [16th Working Conference on Reverse Engineering][wcre09], for which I chair the workshops with [Yann-Gaël Guéhéneuc](http://www.yann-gael.gueheneuc.net/).
 
 [wcre09]: http://web.soccerlab.polymtl.ca/wcre2009/
 
 
-### News
+<!-- [Past events…](archives/events.html) -->
 
-###### New members
+
+## News
+
+
+###### New Members
 [RMoD][] welcomes two new permanent members in 2009: [Marcus Denker](http://marcusdenker.de) and [Nicolas Anquetil](http://www.linkedin.com/pub/nicolas-anquetil/7/a78/9b5).
 
+
+###### Pharo 1.0 beta
+[Pharo][] has reached beta status! The first beta version was released on July 31, 2009; still [lots of work ahead](http://code.google.com/p/pharo/issues/list?q=milestone=1.0), but this certainly is a good milestone towards a full 1.0 release.
+
+###### Pharo by Example
+We're adapting [Squeak by Example][sbe] to the new stuff in [Pharo][], and the book will also feature additional chapters. Release due soon.
+
+[pharo]: http://www.pharo-project.org "Clean, innovative, open-source Smalltalk environment"
+
+
+<!-- [Older news…](archives/news.html) -->
 
 
 ## Contact

@@ -2,7 +2,9 @@ images:
     index_path: ~
 style:
     index_path: ~
-
+archives:
+    index_path: ~
+    
 publications:
     sort_info: 2
 research:

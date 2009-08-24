@@ -2,98 +2,74 @@
 title: Accueil
 sort_info: 1
 ---
+**La [version anglophone du site](index.html) est plus complète et maintenue plus à jour.**
+{: .highlight}
+
 [![Logo USTL]({relocatable: /images/ustl-128.jpg}){: .noframe}][ustl]
 [![Logo Telecom]({relocatable: /images/telecom-128.jpg}){: .noframe}][telecom]
 [![Logo Inria]({relocatable: /images/inria-128.png}){: .noframe}][inria]
 [![Squeak by Example cover]({relocatable: /images/sbe-128.jpg}){: .framed}][sbe]
 {: .right}
 
-{randomimg: {dir: /images/faces, attrs: {alt: Random portrait, class: framed}}}
-{: .left}
 
-I am assistant professor (_Maître de conférences_) at the [university of Lille 1][ustl] ([UFR IEEA][ieea]) since september 2008.
+<p class='left'>
+  {randomimg: {dir: /images/faces, attrs: {alt: Random portrait, width: 128, className: noframe}}}
+</p>
 
-I [teach](./teaching) programming and software engineering at [Telecom Lille 1][telecom],
-and [research](./research) on reengineering at [Inria][] within the [RMoD project-team][rmod].
+Je suis Maître de conférences à l'[université de Lille 1][ustl] ([UFR IEEA][ieea]) depuis septembre 2008.
 
-I'm a co-author of the open-source book [Squeak by Example][sbe].
+J'[enseigne](./teaching) la programmation et le génie logiciel à [Telecom Lille 1][telecom],
+et je conduis mes [travaux de recherche](./research) sur la réingénierie à l'[Inria][], au sein de l'[équipe-projet RMoD][rmod].
+
+Je suis co-auteur du livre open-source [Squeak by Example][sbe].
 
 ##### Curriculum
-I received an engineering degree in computer science from [Insa][] in 2001, and obtained my Ph.D in 2005 from the [university of Rennes 1][rennes1], France ([details here](curriculum.html)).
+J'ai reçu mon diplôme d'ingénieur en informatique de l'[Insa][] en 2001, et soutenu ma thèse de doctorat en 2005 à l'[université de Rennes 1][rennes1] ([plus de détails ici](curriculum.html)).
 
 [sbe]: http://www.squeakbyexample.org/ "Squeak by Example"
 [insa]: http://www.insa-rennes.fr/?LangueID=2 "Institut National des Sciences Appliquées"
 [rennes1]: http://www.univ-rennes1.fr/english/
 
 
-## Events & Activities
-
-
-###### ESUG 2009 --- August 31--September 4, Brest, France.
-I'm attending the [2009 International Smalltalk Conference][ist] and joint workshop [IWST'09][], organized by [ESUG][].
-
-[ESUG]: http://www.esug.org "European Smalltalk User Group"
-[ist]: http://www.esug.org/Conferences/2009
-[IWST'09]: http://www.esug.org/Conferences/2009/InternationalWorkshop "International Workshop on Smalltalk Technologies"
-
-
-###### WCRE 2009 --- October 13--16, Lille, France.
-We will host the [16th Working Conference on Reverse Engineering][wcre09], for which I chair the workshops with [Yann-Gaël Guéhéneuc](http://www.yann-gael.gueheneuc.net/).
-
-[wcre09]: http://web.soccerlab.polymtl.ca/wcre2009/
-
-
-### News
-
-###### New members
-[RMoD][] welcomes two new permanent members in 2009: [Marcus Denker](http://marcusdenker.de) and [Nicolas Anquetil](http://www.linkedin.com/pub/nicolas-anquetil/7/a78/9b5).
-
-
-
-<div class="clear"></div>
-<div class="right noframe">
-  <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;s=AARTsJrQueg5mnaJ0cXqq9vmy7GjJG9pXQ&amp;msa=0&amp;msid=102439886615292055767.0004655293500ba265f74&amp;ll=50.609225,3.141146&amp;spn=0.016341,0.025749&amp;z=14&amp;output=embed">
-  </iframe>
-</div>
-
-
 ## Contact
 
 Email
-: research {mailto: damien.pollet@inria.fr}
-: teaching {mailto: damien.pollet@telecom-lille1.eu}
+: recherche: {mailto: damien.pollet@inria.fr}
+: enseignement: {mailto: damien.pollet@telecom-lille1.eu}
 
-Phone
-: +33&nbsp;3&nbsp;20&nbsp;43&nbsp;40&nbsp;01
+Bureau
+: Lifl: M3&nbsp;117 --- +33&nbsp;3&nbsp;20&nbsp;43&nbsp;40&nbsp;01
+: Telecom: D&nbsp;107&nbsp;N
 
-Fax
-: +33&nbsp;3&nbsp;59&nbsp;57&nbsp;79&nbsp;51
+Web
+: [DBLP](http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/p/Pollet:Damien.html),
+  [ScientificCommons](http://en.scientificcommons.org/damien_pollet),
+  [Google Scholar](http://scholar.google.com/scholar?q=damien%20pollet),
+  [citeulike](http://www.citeulike.org/user/dpollet),
+  [ACM](http://portal.acm.org/author_page.cfm?id=81100098681 "Association for Computing Machinery"),
+  [LinkedIn](http://www.linkedin.com/in/damienpollet),
+  [Facebook](http://www.facebook.com/damien.pollet),
+  [Flickr](http://www.flickr.com/photos/damienpollet/)
 
-Assistant/Secretary
-: Marie-Bénédicte Dernoncourt +33&nbsp;3&nbsp;59&nbsp;57&nbsp;79&nbsp;45
+Assistante de projet
+: Marie-Bénédicte Dernoncourt
+: Téléphone: +33&nbsp;3&nbsp;59&nbsp;57&nbsp;79&nbsp;45 --- Fax: +33&nbsp;3&nbsp;59&nbsp;57&nbsp;79&nbsp;51
 
 <address>
   Centre de recherche Inria Lille – Nord Europe<br/>
   parc scientifique de la Haute Borne<br/>
   40, avenue Halley, bât A, Park Plaza<br/>
-  59650 Villeneuve d'Ascq – France
+  59650 Villeneuve d'Ascq — France
 </address>
 
-##### How to find us on the campus
-RMoD members are **not** located in the Inria building.
-Our offices are at [Lifl][], in the M3 building (please refer to the [larger map][map]).
-My office is M3–117.
 
-##### Web presence
-[DBLP](http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/p/Pollet:Damien.html),
-[ScientificCommons](http://en.scientificcommons.org/damien_pollet),
-[Google Scholar](http://scholar.google.com/scholar?q=damien%20pollet),
-[citeulike](http://www.citeulike.org/user/dpollet),
-[CiteseerX](http://citeseerx.ist.psu.edu/search?q=damien+pollet&submit=Search&sort=cite&t=auth),
-[ACM](http://portal.acm.org/author_page.cfm?id=81100098681 "Association for Computing Machinery"),
-[LinkedIn](http://www.linkedin.com/in/damienpollet),
-[Facebook](http://www.facebook.com/damien.pollet),
-[Flickr](http://www.flickr.com/photos/damienpollet/)
+##### How to find us on the campus
+Les locaux de RMoD **ne sont pas dans le bâtiment Inria**.
+Nos bureaux sont au [Lifl][], bâtiment M3 (voir ci-dessous ou la [carte complète][map]).
+
+<iframe width="100%" height="50%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;s=AARTsJrQueg5mnaJ0cXqq9vmy7GjJG9pXQ&amp;msa=0&amp;msid=102439886615292055767.0004655293500ba265f74&amp;ll=50.609225,3.141146&amp;spn=0.016341,0.025749&amp;z=14&amp;output=embed">&nbsp;</iframe>
+
+
 
 
 [ustl]: http://www.univ-lille1.fr "Université des Sciences et Technologies de Lille 1"
