@@ -24,6 +24,11 @@ task :open => :webgen do
   system 'open out/index.html'
 end
 
+desc "RSync to ryu.zarb.org"
+task :rsync_ryu => :webgen do
+  system 'rsync -ave ssh --delete out/ ryu.zarb.org:/home/users/cdlm/vhosts/people.untyped.org/docroot/damien.pollet'
+end
+
 desc "Render the website automatically on changes"
 task :auto_webgen do
   puts 'Starting auto-render mode'
