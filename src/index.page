@@ -51,8 +51,7 @@ We are hosting the [16th Working Conference on Reverse Engineering][wcre09], for
 
 
 ###### New Members
-[RMoD][] welcomes two new permanent members in 2009: [Marcus Denker](http://marcusdenker.de) and [Nicolas Anquetil](http://www.linkedin.com/pub/nicolas-anquetil/7/a78/9b5).
-
+[RMoD][] welcomes two new permanent members in 2009: [Marcus Denker](http://marcusdenker.de) ([Inria][]) and [Nicolas Anquetil](http://www.linkedin.com/pub/nicolas-anquetil/7/a78/9b5) ([USTL][]), and a Ph.D. student: Jean-Baptiste Arnaud.
 
 ###### Pharo 1.0 beta
 [Pharo][] has reached beta status! The first beta version was released on July 31, 2009; still [lots of work ahead](http://code.google.com/p/pharo/issues/list?q=milestone=1.0), but this certainly is a good milestone towards a full 1.0 release.
@@ -100,7 +99,7 @@ Assistant/Secretary
 
 ##### How to find us on the campus
 RMoD members are **not located in the Inria building**.
-Our offices are at [Lifl][], in the M3 building (see below or please refer to the [full map][map]).
+Our offices are at [Lifl][], rooms 111a/b, 116, and 117 of the M3 building (see below or please refer to the [full map][map]).
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;s=AARTsJrQueg5mnaJ0cXqq9vmy7GjJG9pXQ&amp;msa=0&amp;msid=102439886615292055767.0004655293500ba265f74&amp;ll=50.609225,3.141146&amp;spn=0.016341,0.025749&amp;z=14&amp;output=embed">&nbsp;</iframe>
 
