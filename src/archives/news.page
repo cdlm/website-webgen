@@ -2,4 +2,6 @@
 title: News
 in_menu: false
 ---
+# {title:}
+
 This page could use many blocks from which the home page selects the 3 last (so that it's easy to `cat` new ones at the end)…
