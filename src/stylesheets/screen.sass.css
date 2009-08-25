@@ -47,7 +47,7 @@
 body
   :background-color = !body_color
   :margin 1em
-  :font-family "Myriad Pro", Candara, HelveticaNeue, Helvetica, DejaVuSansCondensed, sans-serif
+  :font-family "Myriad Pro", Calibri, HelveticaNeue, Helvetica, DejaVuSansCondensed, sans-serif
   // :font-family "Museo", "Myriad Pro", Candara, HelveticaNeue, Helvetica, DejaVuSansCondensed, sans-serif
   :line-height 1.3
 
