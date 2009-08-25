@@ -136,6 +136,18 @@ a
     :overflow-x auto
     +rounded
 
+  table
+    :margin 1ex auto
+    :border-collapse collapse
+    :border-spacing 0
+    :caption-side top
+    th, td
+      :padding .75ex .75em
+    thead tr
+      :border-bottom 1px solid #666
+      :vertical-align bottom
+    tbody
+      :vertical-align top
 
 .highlight, .banner
   :margin 1em -14.5em 1em -14.5em !important
