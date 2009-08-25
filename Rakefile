@@ -21,7 +21,7 @@ end
 
 desc "Open the home page"
 task :open => :webgen do
-  system 'open out/index.html'
+  system 'open http://localhost/~damien/website/'
 end
 
 desc "RSync to ryu.zarb.org"

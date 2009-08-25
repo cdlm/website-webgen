@@ -26,3 +26,6 @@ tag.langbar.show_single_lang: false
 tag.langbar.separator: " · "
 # common.sitemap.any_lang: true
 # common.sitemap.used_kinds: [page, directory]
+
+output: [Webgen::Output::FileSystem, /Users/damien/Sites/website]
+output.do_deletion: true
