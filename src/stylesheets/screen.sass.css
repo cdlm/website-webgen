@@ -262,7 +262,6 @@ strong.marker
   :opacity 0.5
   :margin 0 auto
   :margin-top 1em
-  // :max-width 30em
   
   &:hover
     :opacity 1
@@ -270,6 +269,8 @@ strong.marker
       :property opacity
       :duration 0.3s
 
+  #HyphenatorToggleBox
+    :display inline
 
 // body > *
 //   :-webkit-animation

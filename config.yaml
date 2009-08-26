@@ -24,6 +24,7 @@ default_processing_pipeline:
 website.lang: en
 tag.langbar.show_single_lang: false
 tag.langbar.separator: " · "
+tag.date.format: "%Y-%m-%d"
 # common.sitemap.any_lang: true
 # common.sitemap.used_kinds: [page, directory]
 
