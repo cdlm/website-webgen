@@ -15,9 +15,9 @@
 	</head>
 
 	<body>
-		<div id="pagetop">
+		<div id="pagetop" class="hide">
 			<a id="top"></a>
-			<p class="hide">Skip to: <a href="#sitemenu" accesskey="2">Site menu</a> | <a href="#maincontent" accesskey="3">Main content</a></p>
+			<p>Skip to: <a href="#menu" accesskey="2">Site menu</a> | <a href="#maincontent" accesskey="3">Main content</a></p>
 		</div>
 
 		<div id="container">

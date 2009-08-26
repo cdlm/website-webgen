@@ -3,6 +3,7 @@ title: Research Activities
 routed_title: Research
 sort_info: 3
 ---
+{include_file: src/links.markdown}
 # {title:}
 
 ###### Work in progress!
@@ -10,16 +11,28 @@ I'm still in the process of writing these pages.
 {: .banner}
 
 
-### Research Area
+## Research Area
 
-My research domain is software engineering, more precisely software **evolution** and **reengineering**.
-I'm interested in making tools to better understand software, and to actively support its evolution:
+My research domain is software engineering, more precisely software **evolution**, **reengineering**, and **language design**.
+As [Kent Beck writes](http://www.threeriversinstitute.org/blog/?p=363):
 
-- new reverse-engineering and visualisation techniques for program comprehension;
-- new development tools and more expressive languages to build evolvable programs.
+> Succession is the price of success. The needs of the design evolve.
+
+I'm interested in making tools to better understand existing software, and to (pro)actively support its evolution though more expressive or simpler programming tools:
+
+- new reverse-engineering, analysis, and visualisation techniques for program comprehension;
+- new development tools and more expressive language constructs to build understandable and evolvable programs.
+
+In the context of [RMoD][], I follow these interests in the perspective of modularity and remodularization.
+
+
+### Main Conferences and Publication Outlets
 
 Main conferences i publish to, link to list
 {: .todo}
+
+
+## Community Involvement
 
 
 ### Conference Organization
@@ -40,3 +53,4 @@ ICDL
 #### Reviewed Conferences and Talks
 
 #### Non-reviewed & Informal Meetings
+

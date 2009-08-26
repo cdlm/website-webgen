@@ -2,6 +2,7 @@
 title: Accueil
 sort_info: 1
 ---
+{include_file: src/links.markdown}
 **La [version anglophone du site](index.html) est plus complète et maintenue plus à jour.**
 {: .highlight}
 
@@ -26,7 +27,7 @@ Je suis co-auteur du livre open-source [Squeak by Example][sbe].
 ##### Curriculum
 J'ai reçu mon diplôme d'ingénieur en informatique de l'[Insa][] en 2001, et soutenu ma thèse de doctorat en 2005 à l'[université de Rennes 1][rennes1] ([plus de détails ici](curriculum.html)).
 
-[sbe]: http://www.squeakbyexample.org/ "Squeak by Example"
+[ieea]: http://ieea.univ-lille1.fr "Unité de Formation et de Recherche d’Informatique, Électronique, Électrotechnique et Automatique"
 [insa]: http://www.insa-rennes.fr/?LangueID=2 "Institut National des Sciences Appliquées"
 [rennes1]: http://www.univ-rennes1.fr/english/
 
@@ -47,9 +48,9 @@ Web
   [Google Scholar](http://scholar.google.com/scholar?q=damien%20pollet),
   [citeulike](http://www.citeulike.org/user/dpollet),
   [ACM](http://portal.acm.org/author_page.cfm?id=81100098681 "Association for Computing Machinery"),
-  [LinkedIn](http://www.linkedin.com/in/damienpollet),
-  [Facebook](http://www.facebook.com/damien.pollet),
-  [Flickr](http://www.flickr.com/photos/damienpollet/)
+  [LinkedIn][],
+  [Facebook][],
+  [Flickr][]
 
 Assistante de projet
 : Marie-Bénédicte Dernoncourt
@@ -72,10 +73,5 @@ Nos bureaux sont au [Lifl][], salles 111a/b, 116 et 117 du bâtiment M3 (voir ci
 
 
 
-[ustl]: http://www.univ-lille1.fr "Université des Sciences et Technologies de Lille 1"
-[ieea]: http://ieea.univ-lille1.fr "Unité de Formation et de Recherche d’Informatique, Électronique, Électrotechnique et Automatique"
-[telecom]: http://www.telecom-lille1.eu "Telecom Lille 1 – engineering school"
-[inria]: http://www.inria.fr "Institut National de Recherche en Informatique et en Automatique"
 [rmod]: http://rmod.lille.inria.fr "Site web de l'équipe-projet Inria RMoD (anglais)"
-[lifl]: http://www.lifl.fr/index.en.html "Laboratoire d'Informatique Fondamentale de Lille"
 [map]: http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=102439886615292055767.0004655293500ba265f74&ll=50.60977,3.139129&spn=0.018124,0.016801&t=h&z=16 "Comment venir à RMoD ou à l'Inria"
