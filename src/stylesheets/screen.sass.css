@@ -100,7 +100,7 @@ a
   h5, h6
     :display run-in
     :margin 2ex 1em 1ex 0
-  p
+  p, ul, ol, dl
     :margin-bottom 1ex
   ul
     :list-style disc
