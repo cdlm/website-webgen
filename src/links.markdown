@@ -22,4 +22,5 @@
 
 [LinkedIn]: http://www.linkedin.com/in/damienpollet
 [Facebook]: http://www.facebook.com/damien.pollet
+[LastFM]: http://www.last.fm/user/cDlm
 [Flickr]: http://www.flickr.com/photos/damienpollet/
