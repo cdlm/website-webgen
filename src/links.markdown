@@ -20,8 +20,9 @@
 [telecom]: http://www.telecom-lille1.eu "Telecom Lille 1 – engineering school"
 [ustl]: http://www.univ-lille1.fr "Université des Sciences et Technologies de Lille 1"
 
-[LinkedIn]: http://www.linkedin.com/in/damienpollet
 [Facebook]: http://www.facebook.com/damien.pollet
-[LastFM]: http://www.last.fm/user/cDlm
 [Flickr]: http://www.flickr.com/photos/damienpollet
 [Fotopedia]: http://fotopedia.com/users/damienpollet
+[LastFM]: http://www.last.fm/user/cDlm
+[LinkedIn]: http://www.linkedin.com/in/damienpollet
+[Slideshare]: http://www.slideshare.net/damien.pollet
