@@ -1,0 +1,45 @@
+!body_color = #ddd
+!body_alt_color = #ccc
+!body_link_color = #333
+
+!headings_color = #999
+!link_color = black
+
+body, div, a, li, h1, h2, h3, h4, h5
+  :-webkit-transition
+    :property color, background-color, border-color, -webkit-box-shadow-color
+    :duration 3s
+    :timing-function ease-in-out
+
+body
+  :color #111
+  :background-color = !body_color
+
+a
+  :color = !body_link_color
+    
+#container
+  :background-color = !body_alt_color
+  :-webkit-box-shadow 0 0 1ex #eee
+
+#main
+  :color #666
+  :background-color white
+
+  h1, h2, h3, h4, h5
+    :color = !headings_color
+
+  a
+    :color = !link_color
+
+#menu
+  li.webgen-menu-item-selected, li.webgen-menu-submenu-inhierarchy
+    :border-color = !headings_color
+    :background-color = !headings_color
+
+#portrait
+  :-webkit-transition
+    :property -webkit-transform
+    :duration 3s
+    :timing-function ease-in-out
+  :-webkit-transform rotate(540deg)

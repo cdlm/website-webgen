@@ -10,7 +10,7 @@ sort_info: 1
 {: .right}
 
 <p class='left'>
-  {randomimg: {dir: /images/faces, attrs: {alt: Random portrait, width: 128, className: noframe}}}
+  {randomimg: {dir: /images/faces, attrs: {alt: Random portrait, width: 128, className: noframe, id: portrait}}}
 </p>
 
 I am assistant professor (_Maître de conférences_) at the [university of Lille 1][ustl] ([UFR IEEA][ieea]) since september 2008.

@@ -10,3 +10,11 @@
   }
   to {}
 }
+
+@-webkit-keyframes slide-in {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(-1em);
+  }
+  to {}
+}

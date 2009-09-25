@@ -52,7 +52,7 @@ body
 
 
 a
-  :color rgb(29, 61, 53)
+  :color = !body_link_color
   :text-decoration none
 
   &:hover
@@ -66,7 +66,7 @@ a
 
 
 #container
-  :background = !body_alt_color
+  :background-color = !body_alt_color
   :max-width 65em
   :padding 1em 2.5em 1em 2.5em
   +rounded
@@ -81,7 +81,7 @@ a
   +rounded
   
   a
-    :color rgb(17, 68, 152)
+    :color = !link_color
 
   h1, h2, h3, h4
     :color = !headings_color
@@ -271,11 +271,11 @@ strong.marker
   #HyphenatorToggleBox
     :display inline
 
-// body > *
-//   :-webkit-animation
-//     :name appear
-//     :duration 0.5s
-//     :timing-function ease
+#header h1
+  :-webkit-animation
+    :name slide-in
+    :duration 0.5s
+    :timing-function ease
 
 // // does not look the same in Firefox
 // ul
