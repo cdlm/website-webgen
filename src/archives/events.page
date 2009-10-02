@@ -6,4 +6,16 @@ in_menu: false
 
 This page could use many blocks from which the home page selects the 3 last (so that it's easy to `cat` new ones at the end)…
 
-This one could probably be the list of all upcoming things, and the news for past stuff?
+Alternatively, this one could probably be the list of all upcoming things, and the news for past stuff?
+
+
+###### ESUG 2009 --- August 31--September 4, Brest, France.
+I attended the [2009 International Smalltalk Conference][ist] and joint workshop [IWST'09][], organized by [ESUG][]. I presented [Citezen][] to the [Innovation Technology Awards][awards]. Here are [my photos of the event](http://www.flickr.com/photos/damienpollet/collections/72157622253550888/); other photos, as well as talk slides, are available via the conference website.
+
+[ist]: http://www.esug.org/Conferences/2009
+[IWST'09]: http://www.esug.org/Conferences/2009/InternationalWorkshop "International Workshop on Smalltalk Technologies"
+[Citezen]: http://squeaksource.com/Citezen.html "BibTeX-compatible bibliography Pier plugin and tools"
+[awards]: http://www.esug.org/Conferences/2009/Innovation+Technology+Awards
+
+
+{include_file: src/links.markdown}
