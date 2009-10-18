@@ -5,3 +5,14 @@ in_menu: false
 # {title:}
 
 This page could use many blocks from which the home page selects the 3 last (so that it's easy to `cat` new ones at the end)…
+
+
+###### Pharo 1.0 beta
+[Pharo][] has reached beta status! The first beta version was released on July 31, 2009; still [lots of work ahead](http://code.google.com/p/pharo/issues/list?q=milestone=1.0), but this certainly is a good milestone towards a full 1.0 release.
+
+
+###### Pharo by Example
+We're adapting [Squeak by Example][sbe] to the new stuff in [Pharo][], and the book will also feature additional chapters. Release due soon.
+
+
+{include_file: src/links.markdown}

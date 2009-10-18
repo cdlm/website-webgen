@@ -31,44 +31,35 @@ I received an engineering degree in computer science from [Insa][] in 2001, and 
 ## News
 
 
+###### Pharo by Example
+[The book is out!][pbe] Download the free PDF, or [order a paper copy at Lulu](http://www.lulu.com/content/paperback-book/pharo-by-example/7522128).
+
+
 ###### Seaside book
-[_Dynamic Web Development with Seaside_](http://book.seaside.st) is a free online book [announced](http://www.lukas-renggli.ch/blog/dynamic-web-dev) by [Lukas](http://www.lukas-renggli.ch) and [Julian](http://blog.fitzell.ca/) at [ESUG][ist].
+[_Dynamic Web Development with Seaside_](http://book.seaside.st) is a free online book [announced](http://www.lukas-renggli.ch/blog/dynamic-web-dev) by [Lukas](http://www.lukas-renggli.ch) and [Julian](http://blog.fitzell.ca/) at [ESUG][esug09].
 A PDF and a printed version will be available soon.
+
+[esug09]: http://www.esug.org/Conferences/09
 
 
 ###### New Members
 [RMoD][] welcomes three new members in 2009: two permanent positions, [Marcus Denker](http://marcusdenker.de) ([Inria][]) and [Nicolas Anquetil](http://www.linkedin.com/pub/nicolas-anquetil/7/a78/9b5) ([USTL][]), and a new Ph.D. student, Jean-Baptiste Arnaud. Cyrille Delaunay, who just finished his masters internship, stays with us as a research engineer.
 
-###### Pharo 1.0 beta
-[Pharo][] has reached beta status! The first beta version was released on July 31, 2009; still [lots of work ahead](http://code.google.com/p/pharo/issues/list?q=milestone=1.0), but this certainly is a good milestone towards a full 1.0 release.
-
-###### Pharo by Example
-We're adapting [Squeak by Example][sbe] to the new stuff in [Pharo][], and the book will also feature additional chapters. Release due soon.
-
 
 ### Upcoming Events
 
 
-###### WCRE 2009 --- October 13--16, Lille, France
-We are hosting the [16th Working Conference on Reverse Engineering][wcre09], for which I chair the workshops with [Yann-Gaël Guéhéneuc](http://www.yann-gael.gueheneuc.net/).
-
-[wcre09]: http://web.soccerlab.polymtl.ca/wcre2009/
+###### Pharo sprint --- October 17--20, Lille, France
+Four days of intensive bug fixing, finalizing the 1.0 release of [Pharo][], and preparing 1.1.
 
 
 ### In the Past
 
 
-###### OSDC.fr 2009 --- October 2--3, Paris, France
-I attended the [Open Source Developers Conference](http://act.osdc.fr/osdc2009fr/) at at La Cité des Sciences et de l'Industrie, in Paris. Here are [my few photos of the event](http://www.flickr.com/photos/damienpollet/sets/72157622391742069/).
+###### WCRE 2009 --- October 13--16, Lille, France
+We hosted the [16th Working Conference on Reverse Engineering][wcre09], for which I chair the workshops with [Yann-Gaël Guéhéneuc](http://www.yann-gael.gueheneuc.net/).
 
-
-###### ESUG 2009 --- August 31--September 4, Brest, France
-I attended the [2009 International Smalltalk Conference][ist] and joint workshop [IWST'09][], organized by [ESUG][]. I presented [Citezen][] to the [Innovation Technology Awards][awards]. Here are [my photos of the event](http://www.flickr.com/photos/damienpollet/collections/72157622253550888/); other photos, as well as talk slides, are available via the conference website.
-
-[ist]: http://www.esug.org/Conferences/2009
-[IWST'09]: http://www.esug.org/Conferences/2009/InternationalWorkshop "International Workshop on Smalltalk Technologies"
-[Citezen]: http://squeaksource.com/Citezen.html "BibTeX-compatible bibliography Pier plugin and tools"
-[awards]: http://www.esug.org/Conferences/2009/Innovation+Technology+Awards
+[wcre09]: http://web.soccerlab.polymtl.ca/wcre2009/
 
 
 <!-- [All past events…](archives/events.html) -->

@@ -12,6 +12,7 @@
 *[wcre]: Working Conference on Reverse Engineering
 
 [sbe]: http://www.squeakbyexample.org/ "Squeak by Example"
+[pbe]: http://www.pharobyexample.org/ "Pharo by Example"
 [pharo]: http://www.pharo-project.org "Clean, innovative, open-source Smalltalk environment"
 
 [rmod]: http://rmod.lille.inria.fr "RMoD team web pages"
