@@ -13,3 +13,6 @@ teaching:
     sort_info: 4
 notes:
     sort_info: 100
+notes/[0-9][0-9][0-9][0-9]/*.blog:
+    blocks: {2: {name: extended}}
+    template: /notes.template

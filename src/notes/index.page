@@ -1,7 +1,24 @@
 ---
 title: Notes
+used_nodes: [ "/notes/**/*.page" ]
 ---
 # {title:}
+
+<%
+  pages = context.content_node.tree.node_access[:alcn].select{ |alcn,no| alcn =~ /\d{4}\/.*\.html/ && no.is_file? }
+  pages = pages.collect{ |na,no| no}.sort{ |a,b| b['date'] <=> a['date'] }
+  pages.each do |node|
+%>
+
+### <%= context.dest_node.link_to(node, :link_text => node['routed_title'] || node['title']) %>
+
+<%# node['author'] %>  
+<%= node['date'].strftime("%d %b %Y") %>
+{: .left}
+
+<%= context.render_block(:name => 'content', :chain => node.alcn) %>
+<%= context.dest_node.link_to(node, :link_text => "More") %>
+<% end %>
 
 ###### Work in progress!
 This page will be like a blog or a repository of short writings on various subjects, probably but not necessarily technical or scientific. Below is a brain dump of things I could write about ---or already have, but need to dig them up--- when I get myself to it (or someone pushes me enough).
@@ -24,3 +41,4 @@ This page will be like a blog or a repository of short writings on various subje
 - Misc links like [What To Know Before Debating Type Systems](http://www.pphsg.org/cdsmith/types.html), Dale's [Smalltalk 101](http://gemstonesoup.wordpress.com/smalltalk-101/), Stef's [list of free books](http://stephane.ducasse.free.fr/FreeBooks.html), or [general recommendations](http://mleddy.blogspot.com/2005/01/how-to-e-mail-professor.html)
 
 - Machine naming schemes (eldar, cameo/fallawater, tombolimbes, chepa, tenuki, tsuke, hane, keima, komi, kikashi, kakeme, fuseki)
+

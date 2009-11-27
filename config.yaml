@@ -17,9 +17,13 @@ default_meta_info:
       visualisation,
       virtual machines,
       object-oriented
-
+    
 default_processing_pipeline:
-  Page: tags,erb,maruku,blocks,head
+  Page: blocks,tags,erb,maruku,head
+  
+patterns:
+  Page:
+    add: [**/*.blog]
 
 website.lang: en
 tag.langbar.show_single_lang: false
