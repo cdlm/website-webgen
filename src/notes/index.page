@@ -1,11 +1,11 @@
 ---
 title: Notes
-used_nodes: [ "/notes/**/*.page" ]
+used_nodes: [ "/notes/**/*.blog" ]
 ---
 # {title:}
 
 <%
-  pages = context.content_node.tree.node_access[:alcn].select{ |alcn,no| alcn =~ /\d{4}\/.*\.html/ && no.is_file? }
+  pages = context.content_node.tree.node_access[:alcn].select{ |alcn,no| alcn =~ /\d{4}\/.*\.blog/ && no.is_file? }
   pages = pages.collect{ |na,no| no}.sort{ |a,b| b['date'] <=> a['date'] }
   pages.each do |node|
 %>

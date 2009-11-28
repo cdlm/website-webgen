@@ -23,7 +23,7 @@ default_processing_pipeline:
   
 patterns:
   Page:
-    add: [**/*.blog]
+    add: ["**/*.blog"]
 
 website.lang: en
 tag.langbar.show_single_lang: false
