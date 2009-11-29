@@ -1,7 +1,10 @@
 images:
     index_path: ~
-style:
+stylesheets:
     index_path: ~
+scripts/**:
+    index_path: ~
+    in_menu: false
 archives:
     index_path: ~
     
@@ -14,5 +17,6 @@ teaching:
 notes:
     sort_info: 100
 notes/[0-9][0-9][0-9][0-9]/*.blog:
+    output_path_style: [:parent, :basename, ['.', :lang], .html]
     blocks: {2: {name: extended}}
     template: /notes.template
