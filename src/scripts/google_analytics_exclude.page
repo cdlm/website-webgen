@@ -1,0 +1,11 @@
+---
+title: Google analytics exclusion
+---
+# {title:}
+
+**Hey, you found a secret page!**
+
+<form>
+<button onclick="javascript:pageTracker._setVar('test_value'); alert('Excluded!');">
+Exclude this computer</button>
+</form>
