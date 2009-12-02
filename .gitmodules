@@ -1,3 +1,0 @@
-[submodule "submodules/mcollina-website.gitclone"]
-	path = submodules/mcollina-website.gitclone
-	url = git://github.com/mcollina/website.git
