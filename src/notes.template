@@ -1,9 +1,9 @@
---- name:content pipeline:blocks,tags,erb,maruku,head
+--- name:content pipeline:blocks,erb,tags,maruku,head
 
 # {title:}
 
 {author:}  
-<%= (context.node['date'] || context.node['date']).strftime("%d %b %Y") %>
+<%= context.node['created_at'].strftime("%d %b %Y") %>
 {: .left}
 
 <webgen:block name="content" />

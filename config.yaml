@@ -19,11 +19,8 @@ default_meta_info:
       object-oriented
     
 default_processing_pipeline:
-  Page: blocks,tags,erb,maruku,head
+  Page: blocks,erb,tags,maruku,head
   
-patterns:
-  Page:
-    add: ["**/*.blog"]
 
 website.lang: en
 tag.langbar.show_single_lang: false
