@@ -9,7 +9,7 @@ blog.languages: en
 
 <% posts = context.node['posts'] %>
 
-<% unless posts.prev_node.nil? %>
+<% unless posts.first? %>
   <p class="left"><%= context.node.link_to(posts.prev_node, :link_text => "Newer posts") %></p>
 <% end %>
 
@@ -31,7 +31,7 @@ blog.languages: en
     end %>
 <% end %>
 
-<% unless posts.next_node.nil? %>
+<% unless posts.last? %>
   <p class="left"><%= context.node.link_to(posts.next_node, :link_text => "Older posts") %></p>
 <% end %>
 
