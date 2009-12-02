@@ -154,6 +154,7 @@ a
 .highlight, .banner
   :margin 1em -14.5em 1em -14.5em !important
   :padding 1ex 14.5em 1ex 14.5em
+  :clear both
 .highlight
   :background-color = !highlight_color
 .banner
@@ -215,6 +216,10 @@ strong.marker
     :display inline
   a[rev="footnote"]
     :padding-left 1em
+
+.permalink
+  :margin-left 1em
+
 
 #header
   :margin 0 -1.5em 1ex 0
