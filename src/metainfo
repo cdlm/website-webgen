@@ -18,4 +18,4 @@ notes:
     sort_info: 100
 notes/[0-9][0-9][0-9][0-9]/*.page:
     blocks: {2: {name: extended}}
-    template: /notes.template
+    template: /notes/post.template
