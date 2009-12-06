@@ -217,8 +217,10 @@ strong.marker
   a[rev="footnote"]
     :padding-left 1em
 
-.permalink
-  :margin-left 1em
+.postinfo
+  :margin-top 1ex
+  .permalink
+    :margin-right 1em
 
 
 #header
