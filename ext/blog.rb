@@ -20,7 +20,7 @@
 # WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 # OTHER DEALINGS IN THE SOFTWARE.
-
+  
 # Adaptations by Damien Pollet, Nov/Dec 2009
   
 class Blog
@@ -78,14 +78,15 @@ class Blog
     tags = {}
     posts.each do |post|
       next if post[TAGS].nil?
-      post[TAGS].split(",").each do |tag|
+      post[TAGS] = post[TAGS].split(",")
+      post[TAGS].each do |tag|
         tag.strip!
         tags[tag] ||= []
         tags[tag] << post
       end
     end
     
-    main_tags_pages = []
+    main_tags_pages = TagsContainer.new
 
     tags.each do |tag, nodes|
       blog_nodes = create_blog_nodes(path, nodes, meta_info[POST_PER_PAGE]) do |index,total|
@@ -98,7 +99,7 @@ class Blog
       blog_nodes.each do |node|
         node["tag"] = tag
         node["in_menu"] = false
-        node["title"] = "Posts tagged '#{tag}'"
+        node["title"] = tag.downcase
       end
 
       results.concat blog_nodes
@@ -111,19 +112,10 @@ class Blog
     results.dup.each do |blog_node|
       languages.each do |lang|
         unless blog_node.in_lang(lang)
-          blog_node = create_translated_node(blog_node, lang.to_s)
-          blog_node[POSTS_ITERATOR] = blog_node[POSTS_ITERATOR].dup
-          blog_node[POSTS_ITERATOR].posts.map! do |n|
-            translation = create_translated_node(n, lang)
-            results << translation
-            translation
-          end
-
-          blog_node[TAGS].map! do |tag|
-            tag = tag.dup
-            tag.node = create_translated_node(tag.node, lang)
-            tag
-          end
+          blog_node = Blog.create_translated_node(blog_node, lang.to_s)
+          
+          blog_node[POSTS_ITERATOR] = blog_node[POSTS_ITERATOR].translate(lang)
+          blog_node[TAGS] = blog_node[TAGS].translate(lang)
 
           results << blog_node
         end
@@ -132,15 +124,27 @@ class Blog
     results
   end
 
-  def self.tags(blog_node_path)
-    blog_nodes = website.tree.node_access[:acn][blog_node_path]
-    raise "There is no node: #{blog_node_path}" if blog_nodes.empty?
+  def self.tags(node_path, lang=website.config["website.lang"]) 
+    nodes = website.tree.node_access[:acn][node_path]
+    raise "There is no node: #{node_path}" if nodes.nil? or nodes.empty?
 
-    blog_nodes.first[TAGS]
+    nodes.first.in_lang(lang)[TAGS]
   end
 
   def self.tag_cloud(current_node, blog_node_path, options={})
-    TagCloud.new(current_node, tags(blog_node_path), options)
+    TagCloud.new(current_node, tags(blog_node_path, current_node.lang), options)
+  end
+
+  def self.create_translated_node(source_node, lang)
+    return source_node.in_lang(lang) if source_node.in_lang(lang)
+
+    dest_path = Webgen::Path.lcn(source_node.path, lang)
+    dest_info = source_node.meta_info.dup
+    dest_info["lang"] = lang
+
+    new_node = Webgen::Node.new(source_node.parent, dest_path, source_node.cn, dest_info)
+    new_node.node_info.merge!(source_node.node_info)
+    new_node
   end
 
   private
@@ -169,18 +173,6 @@ class Blog
       node.flag(:dirty) unless path && !path.changed?
     end
 
-  end
-
-  def create_translated_node(source_node, lang)
-    return source_node.in_lang(lang) if source_node.in_lang(lang)
-
-    dest_path = Webgen::Path.lcn(source_node.path, lang)
-    dest_info = source_node.meta_info.dup
-    dest_info["lang"] = lang
-
-    new_node = Webgen::Node.new(source_node.parent, dest_path, source_node.cn, dest_info)
-    new_node.node_info.merge!(source_node.node_info)
-    new_node
   end
 
   def create_blog_nodes(path, posts, posts_per_page, &path_builder)
@@ -266,20 +258,115 @@ class Blog
     end
 
     alias :clone :dup
+
+    def translate!(lang)
+      posts.map! do |n|
+      	Blog.create_translated_node(n, lang)
+      end
+      self
+    end
+    
+    def translate(lang)
+      dup.translate!(lang)
+    end
   end
 
   class Tag
 
-    attr_accessor :name, :node, :size
+    include Webgen
+    include WebsiteAccess
+
+    attr_accessor :name, :size
 
     def initialize(name=nil, node=nil, size=nil)
-      @name = name
-      @node = node
-      @size = size
+      self.name = name
+      self.node = node
+      self.size = size
+    end
+
+    def node
+      node = website.tree.node_access[:alcn][@node_alcn]
+      raise "There is no node: #{blog_node_path}" unless node
+      node
+    end
+
+    def node=(node)
+      if node.respond_to?(:alcn)
+        @node_alcn = node.alcn
+      else
+        @node_alcn = node
+      end
+      node
     end
 
     def dup
-      Tag.new(name, node, size)
+      Tag.new(@name, @node_alcn, @size)
+    end
+  end
+
+  class TagsContainer
+
+    include Enumerable
+
+    def initialize(tags=[])
+      fill(tags)
+    end
+
+    def each(&block)
+      @tags.values.each(&block)
+    end
+
+    def tags
+      @tags.values
+    end
+
+    def tags=(tags)
+      fill(tags)
+    end
+
+    def [](name)
+      @tags[name]
+    end
+
+    def dup
+      new_tags = tags.map { |tag| tag.dup }
+      TagsContainer.new(new_tags)
+    end
+
+    def add(tag)
+      @tags[tag.name] = tag
+    end
+
+    def delete(tag)
+      @tags.delete(tag.name)
+    end
+
+    alias :<< :add
+
+    def map!(&block)
+      self.tags = map(&block)
+    end
+
+    def translate!(lang)
+      each do |tag|		
+        tag.node = Blog.create_translated_node(tag.node, lang)
+      end
+      self
+    end
+
+    def translate(lang)
+      dup.translate!(lang)
+    end
+
+    private
+    def fill(tags)
+      reset
+      tags.each { |tag| add(tag) }
+      tags
+    end
+
+    def reset()
+      @tags = Hash.new
     end
   end
 
