@@ -31,18 +31,16 @@ Listing all posts tagged **{title:}**
 
 <p class="left">
   <%= post['created_at'].strftime("%d %b %Y") %>
+  <% if post.meta_info.has_key? "tags" %>
+    <br/>in <%= post_tags.collect{|t| context.node.link_to(t)}.join(', ') %>
+  <% end %>
 </p>
 
 <%= post_page.blocks["content"].content %>
 
-<div class="postinfo">
-  <%= if post_page.blocks.has_key? "extended"
-      then context.node.link_to(post, :link_text => "Read more…", 'class' => "permalink")
-      end %>
-  <% if post.meta_info.has_key? "tags" %>
-    <span class="light">[<%= post_tags.collect{|t| context.node.link_to(t)}.join(', ') %>]</span>
-  <% end %>
-</div>
+<%= if post_page.blocks.has_key? "extended"
+    then context.node.link_to(post, :link_text => "Read more…", 'class' => "permalink")
+    end %>
 <% end %>
 
 <% unless posts.last? %>

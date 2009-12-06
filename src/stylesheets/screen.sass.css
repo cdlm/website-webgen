@@ -174,8 +174,7 @@ a
   +left
 p.right, p.left
   :width 10em
-  :color #aaa
-  // :font-size smaller
+  :opacity 0.5
 
 
 img
@@ -217,10 +216,9 @@ strong.marker
   a[rev="footnote"]
     :padding-left 1em
 
-.postinfo
+.permalink
   :margin-top 1ex
-  .permalink
-    :margin-right 1em
+  :margin-right 1em
 
 
 #header

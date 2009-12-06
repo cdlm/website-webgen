@@ -2,9 +2,15 @@
 
 # {title:}
 
-{author:}  
-<%= context.node['created_at'].strftime("%d %b %Y") %>
-{: .left}
+<% post = context.node %>
+<p class="left">
+  <%= post['created_at'].strftime("%d %b %Y") %>
+  <% if post.meta_info.has_key? "tags" and not post.meta_info['tags'].nil? %>
+    <br/>in <%= post.meta_info['tags'].collect do |t|
+      post.link_to(Blog.tags('/notes/index.html', post.lang)[t].node)
+    end.join(', ') %>
+  <% end %>
+</p>
 
 <webgen:block name="content" />
 
