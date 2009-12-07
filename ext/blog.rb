@@ -78,7 +78,7 @@ class Blog
     tags = {}
     posts.each do |post|
       next if post[TAGS].nil?
-      post[TAGS] = post[TAGS].split(",")
+      post[TAGS] = post[TAGS].split(",") unless Array === post[TAGS]
       post[TAGS].each do |tag|
         tag.strip!
         tags[tag] ||= []
