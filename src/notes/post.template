@@ -3,6 +3,10 @@
 # {title:}
 
 <% post = context.node %>
+<% if post.meta_info.has_key? "image" %>
+  <img src="{relocatable:<%= post['image'] %>}" class="right"/>
+<% end %>
+
 <p class="left">
   <%= post['created_at'].strftime("%d %b %Y") %>
   <% if post.meta_info.has_key? "tags" and not post.meta_info['tags'].nil? %>

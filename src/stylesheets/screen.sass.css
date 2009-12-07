@@ -174,7 +174,9 @@ a
   +left
 p.right, p.left
   :width 10em
-  :opacity 0.5
+  :color #aaa
+  a
+    :color rgb(144, 195, 279)
 
 
 img

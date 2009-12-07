@@ -7,6 +7,11 @@ blog.languages: en
 ---
 <% posts = context.node['posts'] %>
 
+Feeds:
+{link: {path: /notes/feed.rss, attr: {:link_text: RSS, title: 'Posts (RSS)'}}},
+{link: {path: /notes/feed.atom, attr: {:link_text: Atom, title: 'Posts (Atom)'}}}.
+{: .right}
+
 <% if context.node['tag'].nil? %>
 # {title:}
 <% else %>
@@ -24,15 +29,15 @@ Listing all posts tagged **{title:}**
     post_page = post.node_info[:page]
     post_tags = (post['tags'] || []).map{ |t| Blog.tags('/notes/index.html', context.node.lang)[t].node } %>
 
-<% if post.meta_info.has_key? "image" %>
+<!-- <% if post.meta_info.has_key? "image" %>
   <img src="{relocatable:<%= post['image'] %>}" class="right"/>
-<% end %>
-### <%= context.node.link_to(post) %>
+<% end %> -->
+## <%= context.node.link_to(post) %>
 
 <p class="left">
   <%= post['created_at'].strftime("%d %b %Y") %>
-  <% if post.meta_info.has_key? "tags" %>
-    <br/>in <%= post_tags.collect{|t| context.node.link_to(t)}.join(', ') %>
+  <% if post.meta_info.has_key? "tags" %><br/>
+    in <%= post_tags.collect{|t| context.node.link_to(t)}.join(', ') %>
   <% end %>
 </p>
 
@@ -54,26 +59,5 @@ Listing all posts tagged **{title:}**
 [Tenuki](http://senseis.xmp.net/?Tenuki) is a term from the [game of Go](http://senseis.xmp.net/?Go) that denotes ignoring the current local battle and just playing somewhere else.
 So these pages will be like a blog or a repository of short writings on various subjects, probably quite geeky but not necessarily entirely related to research or even computer science; in fact, if I had to gather all that will appear here in a book, I would probably entitle it *The Art of Computer Procrastinating*.
 {: .banner}
-
-###### Work in progress!
-Below is a quick brain dump of things I could write about ---or already have, but need to dig them up--- when I get myself to it (or someone pushes me enough).
-
-- Typography, graphic design
-
-- LaTeX tips & tricks (setup, workflow, commands, packages)
-
-- unix configuration stuff (svn, seaside with apache/lighttpd ?)
-
-- Go
-
-- Graphics
-
-- Books, Science-fiction, Smalltalk
-
-- Explaining reflection and bootstrap, the neuro-surgeon metaphor
-
-- Misc links like [What To Know Before Debating Type Systems](http://www.pphsg.org/cdsmith/types.html), Dale's [Smalltalk 101](http://gemstonesoup.wordpress.com/smalltalk-101/), Stef's [list of free books](http://stephane.ducasse.free.fr/FreeBooks.html), or [general recommendations](http://mleddy.blogspot.com/2005/01/how-to-e-mail-professor.html)
-
-- Machine naming schemes (eldar, cameo/fallawater, tombolimbes, chepa, tenuki, tsuke, hane, keima, komi, kikashi, kakeme, fuseki)
 
 <% end %>
