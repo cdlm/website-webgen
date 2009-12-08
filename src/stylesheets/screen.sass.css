@@ -172,11 +172,12 @@ a
     +right
   .left
     +left
-  p.right, p.left
-    :width 10em
+  .right, .left
     :color #aaa
     a
       :color rgb(144, 195, 279)
+  p.right, p.left
+    :width 10em
 
 
 img
