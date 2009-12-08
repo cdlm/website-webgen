@@ -1,31 +1,59 @@
 ---
 title: Teaching
 ---
+{include_file: src/links.markdown}
+[![Logo Telecom]({relocatable: /images/telecom-128.jpg}){: .noframe}][telecom]
+{: .right}
+
 # {title:}
 
-The [french version of this page](index.fr.html) is probably the most complete and up-to-date.
+I'm part of the computer science department of [Telecom Lille 1][telecom], where I teach programming and software engineering.
+
+Slides and other teaching materials are mostly in french, and the [french version of this page](index.fr.html) is probably the most complete and up-to-date.
 {: .highlight}
 
+
+### Bachelor level courses
+
+
+##### Computer Architecture (A23)
+3rd year bachelor.
+Combinatorial and sequential logic, programming of control structures in assembly, using Borland Turbo-C.
+[Intranet A23](http://wapiti.telecom-lille1.eu/commun/ens/peda/modules/A23/index.htm)
+
+- autumn 2008: assisting
+
+
+##### OO Programming & Design (A43)
+3rd year bachelor.
+Bases of object-oriented analysis & design, programming in Java & Eclipse.
+[Intranet A43](http://wapiti.telecom-lille1.eu/commun/ens/peda/modules/A43/)
+
+- autumn 2009: module **coordinator**, lectures, assisting, exam
+- autumn 2008: assisting
+
+
+##### Algorithms & Structured Programming (B23)
+1st year bachelor.
+Algorithmic complexity, sorting algorithms, programming in C.
+[Intranet B23](http://wapiti.telecom-lille1.eu/commun/ens/peda/modules/B23/index.html)
+
+- spring 2009: module **coordinator** with [Boulbaba Ben Amor](http://www.telecom-lille1.eu/people/benamor/), lectures, assisting, exam
+
+
+##### Distributed Applications (TA3)
+3rd year bachelor.
+Distributed & web programming, remote objects; HTTP, Java RMI, Tomcat servlets.
+[Intranet TA3](http://wapiti.telecom-lille1.eu/Commun/ens/peda/modules/TA3/index.htm)
+
+- spring 2008: module **coordinator**, lectures, assisting, exam
+
+<!--
 list of topics, modules, options  
 coordination, coordinators  
 links for students, materials
 {: .todo}
+-->
 
-## Telecom
 
-### Computer Architecture (A23)
 
-**TD, TP Borland Turbo-C**
-[Intranet A23](http://wapiti.telecom-lille1.eu/commun/ens/peda/modules/A23/index.htm)
-
-### OO Programming & Design (A43)
-
-**TD, TP, Eclipse**
-[Intranet A43](http://wapiti.telecom-lille1.eu/commun/ens/peda/modules/A43/)
-
-### Introduction to Algorithms (B23)
-
-**C**
-[Intranet B23](http://wapiti.telecom-lille1.eu/commun/ens/peda/modules/B23/index.html)
-
-### Distributed Programming (TA3)

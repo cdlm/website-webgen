@@ -2,38 +2,45 @@
 title: Enseignement
 routed_title: Enseignement
 ---
+{include_file: src/links.markdown}
+[![Logo Telecom]({relocatable: /images/telecom-128.jpg}){: .noframe}][telecom]
+{: .right}
+
 # {title:}
 
-list of topics, modules, options  
-coordination, coordinators  
-links for students, materials
-{: .todo}
+Je fais partie du département Informatique et Réseaux de [Telecom Lille 1][telecom], où j'enseigne la programmation et le génie logiciel.
 
-## Telecom
+### Niveau license
 
-### Architecture des ordinateurs (A23)
 
-**TD, TP Borland Turbo-C**
+##### Computer Architecture (A23)
+License 3.
+Logique combinatoire et séquentielle, programmation des structures de contrôle en assembleur, avec Borland Turbo-C.
 [Intranet A23](http://wapiti.telecom-lille1.eu/commun/ens/peda/modules/A23/index.htm)
 
-
-### Structures de données (A31)
-
-**TD, TP, langage C**
-[Intranet A31](http://wapiti.telecom-lille1.eu/Commun/ens/peda/modules/A31/index.htm)
+- automne 2008: encadrement de travaux pratiques
 
 
-### Conception et programmation orientées objet (A43)
-
-**TD, TP, Eclipse**
+##### OO Programming & Design (A43)
+License 3.
+Bases d'analyse et de conception orientées objet, programmation en Java & Eclipse.
 [Intranet A43](http://wapiti.telecom-lille1.eu/commun/ens/peda/modules/A43/)
 
-### Introduction aux algorithmes (B23)
+- automne 2009: **coordonnateur** du module, cours, encadrement de travaux dirigés et pratiques, examen
+- automne 2008: encadrement de travaux dirigés et pratiques
 
-**TD, TP, cours, langage C**
+
+##### Algorithms & Structured Programming (B23)
+License 1.
+Compexité algorithmique, algorithmes de tris, programmation en C.
 [Intranet B23](http://wapiti.telecom-lille1.eu/commun/ens/peda/modules/B23/index.html)
 
-### Programmation d'applications réparties (TA3)
+- printemps 2009: **coordonnateur** du module avec [Boulbaba Ben Amor](http://www.telecom-lille1.eu/people/benamor/), cours, encadrement de travaux dirigés et pratiques, examen
 
-**Cours, TP, Java RMI, servlets**
+
+##### Distributed Applications (TA3)
+License 3.
+Programmation répartie et web, objets distants; HTTP, Java RMI, servlets Tomcat.
 [Intranet TA3](http://wapiti.telecom-lille1.eu/Commun/ens/peda/modules/TA3/index.htm)
+
+- printemps 2008: **coordonnateur** du module, cours, encadrement de travaux dirigés et pratiques, examen
