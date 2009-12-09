@@ -27,7 +27,7 @@ Listing all posts tagged **{title:}**
 
 <% posts.each do |post|
     post_page = post.node_info[:page]
-    post_tags = (post['tags'] || []).map{ |t| Blog.tags('/notes/index.html', context.node.lang)[t].node } %>
+    post_tags = post['tag nodes'] %>
 
 <!-- <% if post.meta_info.has_key? "image" %>
   <img src="{relocatable:<%= post['image'] %>}" class="right"/>
@@ -36,8 +36,8 @@ Listing all posts tagged **{title:}**
 
 <p class="left">
   <%= post['created_at'].strftime("%d %b %Y") %>
-  <% if post.meta_info.has_key? "tags" %><br/>
-    in <%= post_tags.collect{|t| context.node.link_to(t)}.join(', ') %>
+  <% unless post_tags.nil? || post_tags.empty? %><br/>
+    in <%= post_tags.collect { |t| t.link_from(context.node) }.join(', ') %>
   <% end %>
 </p>
 
