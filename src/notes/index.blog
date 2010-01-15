@@ -15,8 +15,7 @@ Feeds:
 <% if context.node['tag'].nil? %>
 # {title:}
 <% else %>
-###### Post query
-Listing all posts tagged **{title:}**
+Listing only posts with tag **{title:}** — [see all posts…](./index.html)
 {: .highlight}
 <% end %>
 
