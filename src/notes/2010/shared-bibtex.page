@@ -2,7 +2,7 @@
 title: Many LaTeX documents, one BibTeX database
 created_at: 2010-01-13
 image: /notes/images/library.jpg
-tags: latex,bibtex
+tags: [latex, bibtex]
 ---
 As a researcher, I spend most of my time writing [LaTeX][], using [many][texlive] [tools][latexmk], among which [BibTeX][], the bibliography database processor. Our team manages a huge `.bib` file centralizing all publications we read and might need to cite someday.
 

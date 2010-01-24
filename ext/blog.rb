@@ -79,7 +79,6 @@ class Blog
     tags = {}
     posts.each do |post|
       next if post[TAGS].nil?
-      post[TAGS] = post[TAGS].split(",")
       post[TAGS].each do |tag|
         tag.strip!
         tags[tag] ||= []
