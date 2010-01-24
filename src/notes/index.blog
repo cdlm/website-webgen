@@ -33,12 +33,12 @@ Listing only posts with tag **{title:}** — [see all posts…](./index.html)
 <% end %> -->
 ## <%= context.node.link_to(post) %>
 
-<p class="left">
-  <%= post['created_at'].strftime("%d %b %Y") %>
-  <% unless post_tags.nil? || post_tags.empty? %><br/>
+<div class="postmeta">
+  <span class="date"><%= post['created_at'].strftime("%d %b %Y") %></span>
+  <span class="tags"><% unless post_tags.nil? || post_tags.empty? %>
     in <%= post_tags.collect { |t| t.link_from(context.node) }.join(', ') %>
-  <% end %>
-</p>
+  <% end %></span>
+</div>
 
 <%= post_page.blocks["content"].content %>
 

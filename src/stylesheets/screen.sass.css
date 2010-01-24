@@ -35,6 +35,12 @@
   :-webkit-border-radius 0.5ex
   :-moz-border-radius 0.5ex
 
+=inmargin
+  :width 10em
+  :color #aaa
+  a
+    :color rgb(144, 175, 200)
+  
 
 .clear
   :clear both
@@ -172,12 +178,13 @@ a
     +right
   .left
     +left
-  .right, .left
-    :color #aaa
-    a
-      :color rgb(144, 195, 279)
   p.right, p.left
-    :width 10em
+    +inmargin
+  .postmeta
+    +left
+    +inmargin
+    .date, .tags
+      :display block
 
 
 img
@@ -222,6 +229,7 @@ strong.marker
 .permalink
   :margin-top 1ex
   :margin-right 1em
+
 
 
 #header
