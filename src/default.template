@@ -9,6 +9,7 @@
 		<meta name="generator" content="webgen - http://webgen.rubyforge.org" />
 		<link rel="stylesheet" type="text/css" href="{relocatable: /stylesheets/screen.css}" media="screen,projection" />
 		<link rel="stylesheet" type="text/css" href="{relocatable: /stylesheets/print.css}" media="print" />
+		<link rel="icon" type="image/png" href="{relocatable: /images/icon.png}" />
 		<title>{site_title:} — {title:}</title>
 		
 		<script type="text/javascript" src="{relocatable: /scripts/hyphenator-packed.js}"></script>
