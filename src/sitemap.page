@@ -2,6 +2,7 @@
 title: Site Map
 sort_info: 10
 in_menu: false
+draft: true
 ---
 # {title:}
 {sitemap:}

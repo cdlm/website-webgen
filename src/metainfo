@@ -1,21 +1,34 @@
 images:
     index_path: ~
+    in_menu: false
 stylesheets:
     index_path: ~
+    in_menu: false
 scripts/**:
     index_path: ~
     in_menu: false
 archives:
     index_path: ~
-    
+    in_menu: false
+sandbox/*:
+    draft: true
+    in_menu: false
+
 publications:
+    index_path: index.en.html
     sort_info: 2
 research:
+    index_path: index.en.html
     sort_info: 3
 teaching:
+    index_path: index.en.html
     sort_info: 4
+
 notes:
+    index_path: index.en.html
     sort_info: 100
+notes/[0-9][0-9][0-9][0-9]:
+    index_path: ~
 notes/[0-9][0-9][0-9][0-9]/*.page:
     blocks: {2: {name: extended}}
     template: /notes/post.template
