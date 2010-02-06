@@ -4,13 +4,22 @@ routed_title: Notes
 blog.filter: /notes/[0-9][0-9][0-9][0-9]/**/*.html
 blog.post_per_page: 5
 blog.languages: en
+link:
+   alternate:
+      - type: application/atom+xml
+        href: /notes/feed.atom
+        title: Posts (Atom)
+      - type: application/rss+xml
+        href: /notes/feed.rss
+        title: Posts (RSS)
 ---
 <% posts = context.node['posts'] %>
 
-Feeds:
+<%# Feeds:
 {link: {path: /notes/feed.rss, attr: {:link_text: RSS, title: 'Posts (RSS)'}}},
 {link: {path: /notes/feed.atom, attr: {:link_text: Atom, title: 'Posts (Atom)'}}}.
 {: .right}
+%>
 
 <% if context.node['tag'].nil? %>
 # {title:}
