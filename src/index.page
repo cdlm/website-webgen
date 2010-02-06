@@ -13,7 +13,7 @@ sort_info: 1
   {randomimg: {dir: /images/faces, attrs: {alt: Random portrait, width: 128, className: noframe, id: portrait}}}
 </p>
 
-I am assistant professor (_Maître de conférences_) at the [university of Lille 1][ustl] ([UFR IEEA][ieea]) since september 2008.
+I am assistant professor (*Maître de conférences*) at the [university of Lille 1][ustl] ([UFR IEEA][ieea]) since september 2008.
 
 I [teach](teaching/index.html) programming and software engineering at [Telecom Lille 1][telecom],
 and [research](./research.html) on reengineering at [Inria][] within the [RMoD project-team][rmod].
