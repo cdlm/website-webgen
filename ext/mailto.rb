@@ -1,16 +1,6 @@
 class Mailto
   include Webgen::Tag::Base
-  include Webgen::WebsiteAccess
-  
-  website.config['contentprocessor.tags.map']['mailto'] = 'Mailto'
-  website.config.mailto.to nil,
-    :doc => 'The destination email address. Mandatory.',
-    :mandatory => 'default'
-  website.config.mailto.link nil,
-    :doc => 'The linked text. Defaults to the email address.'
-  website.config.mailto.subject nil,
-    :doc => 'The subject of the mail message. Optional.'
-
+    
   def call( tag, body, context )
     email = encode_email(param('mailto.to'))
     link = param('mailto.link') || email
@@ -18,6 +8,8 @@ class Mailto
     html = "<a href='mailto:#{email}#{'?subject=' + subject unless subject.nil?}'>#{link}</a>"
     return [html,false]
   end
+
+# private
 
   def encode_email( mail )
     expanded = mail #mail.gsub('.', ' dot ').gsub('@', ' at ')
@@ -27,3 +19,13 @@ class Mailto
   end
 
 end
+
+config = Webgen::WebsiteAccess.website.config
+config['contentprocessor.tags.map']['mailto'] = 'Mailto'
+config.mailto.to nil,
+  :doc => 'The destination email address. Mandatory.',
+  :mandatory => 'default'
+config.mailto.link nil,
+  :doc => 'The linked text. Defaults to the email address.'
+config.mailto.subject nil,
+  :doc => 'The subject of the mail message. Optional.'

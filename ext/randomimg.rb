@@ -2,18 +2,6 @@
 
 class RandomImg
   include Webgen::Tag::Base
-  include Webgen::WebsiteAccess
-  
-  website.config['contentprocessor.tags.map']['randomimg'] = 'RandomImg'
-  website.config.randomimg.dir nil,
-    :doc => 'Directory to pick images from. Mandatory.',
-    :mandatory => 'default'
-  website.config.randomimg.attrs Hash.new,
-    :doc => 'Attributes for the image. Override metainfo.'
-  website.config.randomimg.default_attrs Hash.new,
-    :doc => 'Attributes for the image. Overriden by metainfo.'
-  website.config.randomimg.dummy '/images/empty.gif',
-    :doc => 'Empty placeholder image.'
 
   def call( tag, body, context )
     ensure_js_head( context )
@@ -76,3 +64,16 @@ end
 class Object
   def to_js; self.to_s.to_js; end
 end
+
+  
+config = Webgen::WebsiteAccess.website.config
+config['contentprocessor.tags.map']['randomimg'] = 'RandomImg'
+config.randomimg.dir nil,
+  :doc => 'Directory to pick images from. Mandatory.',
+  :mandatory => 'default'
+config.randomimg.attrs Hash.new,
+  :doc => 'Attributes for the image. Override metainfo.'
+config.randomimg.default_attrs Hash.new,
+  :doc => 'Attributes for the image. Overriden by metainfo.'
+config.randomimg.dummy '/images/empty.gif',
+  :doc => 'Empty placeholder image.'
