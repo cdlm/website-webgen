@@ -15,13 +15,13 @@ sort_info: 1
 
 I am assistant professor (*Maître de conférences*) at the [university of Lille 1][ustl] ([UFR IEEA][ieea]) since september 2008.
 
-I [teach](teaching/index.html) programming and software engineering at [Telecom Lille 1][telecom],
-and [research](./research.html) on reengineering at [Inria][] within the [RMoD project-team][rmod].
+I [teach](/teaching/) programming and software engineering at [Telecom Lille 1][telecom],
+and [research](/research/) on reengineering at [Inria][] within the [RMoD project-team][rmod].
 
 I'm a co-author of the open-source books [Squeak by Example][sbe] and [Pharo by Example][pbe].
 
 ##### Curriculum
-I received an engineering degree in computer science from [Insa][] in 2001, and obtained my Ph.D in 2005 from the [university of Rennes 1][rennes1], France ([details here](curriculum.html)).
+I received an engineering degree in computer science from [Insa][] in 2001, and obtained my Ph.D in 2005 from the [university of Rennes 1][rennes1], France ([details here](/curriculum.html)).
 
 [ieea]: http://ieea.univ-lille1.fr "Unité de Formation et de Recherche d’Informatique, Électronique, Électrotechnique et Automatique"
 [insa]: http://www.insa-rennes.fr/?LangueID=2 "Institut National des Sciences Appliquées"
@@ -87,7 +87,7 @@ Therefore, be warned that these pages are never complete, but be assured that th
 
 ## Contact Info
 
-See my [detailed contact page]({relocatable: contact.html}) for all details, [access map](contact.html#map) to our offices, and my [agenda](contact.html#agenda).
+See my [detailed contact page](contact.html) for more info, the [access map](contact.html#map) to our offices, and my [agenda](contact.html#agenda).
 
 Email
 : research: {mailto: damien.pollet@inria.fr}

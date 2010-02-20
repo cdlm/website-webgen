@@ -1,4 +1,4 @@
---- name:content pipeline:blocks,erb,tags,maruku,head
+--- name:content pipeline:blocks,erb,tags,kramdown,head
 
 # {title:}
 

@@ -3,7 +3,7 @@ title: Accueil
 sort_info: 1
 ---
 {include_file: src/links.markdown}
-**La [version anglophone du site](index.html) est plus complète et maintenue plus à jour.**
+**La [version anglophone du site](index.en.html) est plus complète et maintenue plus à jour.**
 {: .highlight}
 
 [![Logo USTL]({relocatable: /images/ustl-128.jpg}){: .noframe}][ustl]
@@ -19,13 +19,13 @@ sort_info: 1
 
 Je suis Maître de conférences à l'[université de Lille 1][ustl] ([UFR IEEA][ieea]) depuis septembre 2008.
 
-J'[enseigne](./teaching) la programmation et le génie logiciel à [Telecom Lille 1][telecom],
-et je conduis mes [travaux de recherche](./research) sur la réingénierie à l'[Inria][], au sein de l'[équipe-projet RMoD][rmod].
+J'[enseigne](/teaching/index.fr.html) la programmation et le génie logiciel à [Telecom Lille 1][telecom],
+et je conduis mes [travaux de recherche](/research/) sur la réingénierie à l'[Inria][], au sein de l'[équipe-projet RMoD][rmod].
 
 Je suis co-auteur du livre open-source [Squeak by Example][sbe].
 
 ##### Curriculum
-J'ai reçu mon diplôme d'ingénieur en informatique de l'[Insa][] en 2001, et soutenu ma thèse de doctorat en 2005 à l'[université de Rennes 1][rennes1] ([plus de détails ici](curriculum.html)).
+J'ai reçu mon diplôme d'ingénieur en informatique de l'[Insa][] en 2001, et soutenu ma thèse de doctorat en 2005 à l'[université de Rennes 1][rennes1] ([plus de détails ici](/curriculum.en.html)).
 
 [ieea]: http://ieea.univ-lille1.fr "Unité de Formation et de Recherche d’Informatique, Électronique, Électrotechnique et Automatique"
 [insa]: http://www.insa-rennes.fr/?LangueID=2 "Institut National des Sciences Appliquées"

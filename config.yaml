@@ -19,7 +19,7 @@ default_meta_info:
       object-oriented
     
 default_processing_pipeline:
-  Page: blocks,erb,tags,maruku,head
+  Page: blocks,erb,tags,kramdown,head
   
 
 website.lang: en
@@ -28,6 +28,8 @@ tag.langbar.separator: " · "
 tag.date.format: "%Y-%m-%d"
 # common.sitemap.any_lang: true
 # common.sitemap.used_kinds: [page, directory]
+tag.includefile.process_output: true
+tag.includefile.escape_html: false
 
 output: [Webgen::Output::FileSystem, /Users/damien/Sites/website]
 output.do_deletion: true
