@@ -19,7 +19,7 @@ default_meta_info:
       object-oriented
     
 default_processing_pipeline:
-  Page: blocks,erb,tags,kramdown,head
+  Page: blocks,erb,tags,kramdown,head,fragments
   
 
 website.lang: en
