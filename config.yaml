@@ -30,6 +30,7 @@ tag.date.format: "%Y-%m-%d"
 # common.sitemap.used_kinds: [page, directory]
 tag.includefile.process_output: true
 tag.includefile.escape_html: false
+tag.metainfo.escape_html: false
 
 output: [Webgen::Output::FileSystem, /Users/damien/Sites/website]
 output.do_deletion: true

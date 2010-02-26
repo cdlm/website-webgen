@@ -15,12 +15,6 @@ link:
 ---
 <% posts = context.node['posts'] %>
 
-<%# Feeds:
-{link: {path: /notes/feed.rss, attr: {:link_text: RSS, title: 'Posts (RSS)'}}},
-{link: {path: /notes/feed.atom, attr: {:link_text: Atom, title: 'Posts (Atom)'}}}.
-{: .right}
-%>
-
 <% if context.node['tag'].nil? %>
 # {title:}
 <% else %>
@@ -37,9 +31,6 @@ Listing only posts with tag **{title:}** — [see all posts…](./index.html)
     post_page = post.node_info[:page]
     post_tags = post['tag nodes'] %>
 
-<!-- <% if post.meta_info.has_key? "image" %>
-  <img src="{relocatable:<%= post['image'] %>}" class="right"/>
-<% end %> -->
 ## <%= context.node.link_to(post) %>
 
 <div class="postmeta">

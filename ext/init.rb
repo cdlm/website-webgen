@@ -5,15 +5,8 @@
 #
 # If you don't need this feature you can savely delete this file and the directory in which it is!
 
-require 'ext/lipsum'
-require 'ext/mailto'
-require 'ext/randomimg'
-require 'ext/blog'
+load 'ext/lipsum.rb'
+load 'ext/mailto.rb'
+load 'ext/randomimg.rb'
+load 'ext/blog.rb'
 Blog.setup
-
-### debug
-class Webgen::Node
-  def to_s
-    "Webgen::Node #{self.path}"
-  end
-end
