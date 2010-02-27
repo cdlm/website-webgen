@@ -7,8 +7,8 @@ stylesheets:
 scripts/**:
     index_path: ~
     in_menu: false
-archives:
-    index_path: ~
+archives/*:
+    draft: true
     in_menu: false
 sandbox/*:
     draft: true
