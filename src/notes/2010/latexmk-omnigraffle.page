@@ -20,7 +20,7 @@ Very nice indeed, but what about figures created in an external editor like [Omn
 
 ## Exporting from OmniGraffle automatically
 
-First of all, we need a way to [convert a `.graffle` file to PDF automatically][graffle2pdf].
+First of all, we need a way to [convert a `.graffle` file to PDF automatically][graffle2pdf][^beware].
 My solution was a short Ruby wrapper around an AppleScript invocation, but I guess Automator would work as well.
 Just drop the script somewhere in your `$PATH` and make sure it's executable.
 I didn't pay much attention to making the invocation flexible, because I only use it in an automatic way, so both input and output file names have to be specified explicitely:
@@ -77,3 +77,4 @@ _Happy LaTeXing!_
 [synctex]: http://en.foursenses.net/usingsynctex
 [skim]: http://skim-app.sourceforge.net/
 [^lmk]: In fact I have a shell alias that shortens that to just `lmk` :-)
+[^beware]: Beware, the script contains a couple Unicode chevrons (`«class ppth»`) that gitweb garbles in the [raw view](http://code.untyped.org/gitweb/gitweb.cgi?p=infrastructure.git;a=blob_plain;f=tools/graffle2pdf); they are correct in the [blob view][graffle2pdf].
