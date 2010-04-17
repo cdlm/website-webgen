@@ -144,6 +144,12 @@ a
     :overflow-x auto
     +rounded
 
+  sup
+    :vertical-align baseline
+    :position relative
+    :font-size x-small
+    :top -1ex
+
   table
     :margin 1ex auto
     :border-collapse collapse
