@@ -7,7 +7,7 @@
 # It also provides some tasks out of the box, for example, rendering the website, clobbering the
 # generated files, an auto render task,...
 #
-
+# $:.unshift "~/Documents/Scratch/Webgen/gettalong-webgen.gitclone/lib"
 require 'webgen/webgentask'
 
 task :default => :webgen
