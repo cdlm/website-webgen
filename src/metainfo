@@ -4,7 +4,7 @@ images:
 stylesheets:
     index_path: ~
     in_menu: false
-scripts/**:
+scripts/*:
     index_path: ~
     in_menu: false
 archives/*:

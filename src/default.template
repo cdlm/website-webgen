@@ -13,9 +13,10 @@
 		<title>{site_title:} — {title:}</title>
 		
 		<script type="text/javascript" src="{relocatable: /scripts/hyphenator-packed.js}"></script>
-		<script type="text/javascript" src="{relocatable: /scripts/konami.js}"></script>
+		<script type="text/javascript" src="{relocatable: /scripts/konami.pack.js}"></script>
 		<script type="text/javascript">
-			konami.code = function() {
+			var k = new Konami();
+			k.code = function() {
 				document.getElementById("konami").style.display = "inline";
 				var cssLink = document.createElement("link");
 				cssLink.href = "{relocatable: /stylesheets/konami.css}";
@@ -23,7 +24,7 @@
 				cssLink.type = "text/css";
 				document.body.appendChild(cssLink);
 			};
-			konami.load();
+			k.load();
 		</script>
 	</head>
 
