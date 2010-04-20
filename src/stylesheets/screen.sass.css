@@ -222,7 +222,7 @@ strong.marker
   :background-color = !marker_color
   :white-space pre-line
 
-.footnotes
+.footnotes, #footnotediv
   :font-size smaller
   hr
     :width 50%
@@ -231,6 +231,14 @@ strong.marker
     :display inline
   a[rev="footnote"]
     :padding-left 1em
+
+#footnotediv
+  :max-width 20em
+  :padding 1em
+  :background-color white
+  :border 1px solid #ccc
+  :-webkit-box-shadow #ccc 0 0 10px
+  :-webkit-border-radius 3px
 
 .permalink
   :margin-top 1ex
