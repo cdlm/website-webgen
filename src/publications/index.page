@@ -7,15 +7,15 @@ title: Publications
 This page will show a nicely sorted and classified list of my publications… in the meantime, please refer to [Google Scholar](http://scholar.google.com/scholar?q=damien%20pollet) or [CiteULike](http://www.citeulike.org/profile/dpollet/publications).
 {: .banner}
 
+### All publications
 
-**latest publications**
+{include_file: data/publications.part.html}
 
-**topics, as sub-pages**
 
-### Under review
 
-**all, by kind**
-
+**latest publications & under review**  
+**topics, as sub-pages**  
+**all, by kind**  
 journal & high-level conferences  
 edited volumes, books  
 chapters & invited  
