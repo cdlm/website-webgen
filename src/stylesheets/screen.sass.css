@@ -163,7 +163,7 @@ a
     tbody
       :vertical-align top
 
-  ol.publications
+  ul.publications
     li
       :margin-bottom 1ex
     a[name]
@@ -172,6 +172,7 @@ a
       :font-weight bold
     .notes
       :margin-left 1ex
+      :color #666
   
   .highlight, .banner
     :margin 1em -14.5em 1em -14.5em !important

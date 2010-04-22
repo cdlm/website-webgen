@@ -3,16 +3,13 @@ title: Publications
 ---
 # {title:}
 
-###### Work in progress!
-This page will show a nicely sorted and classified list of my publications… in the meantime, please refer to [DBLP](http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/p/Pollet:Damien.html), [Google Scholar](http://scholar.google.com/scholar?q=damien%20pollet) or [CiteULike](http://www.citeulike.org/profile/dpollet/publications).
-{: .banner}
-
-### All publications
+If needed, please also refer to [DBLP](http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/p/Pollet:Damien.html), [Google Scholar](http://scholar.google.com/scholar?q=damien%20pollet) or [CiteULike](http://www.citeulike.org/profile/dpollet/publications).
+{: .right}
 
 {include_file: data/publications.part.html}
 
 
-
+<%#
 **latest publications & under review**  
 **topics, as sub-pages**  
 **all, by kind**  
@@ -24,3 +21,4 @@ workshops & posters
 reports  
 unpublished misc
 {: .todo}
+%>
