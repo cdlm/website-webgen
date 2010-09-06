@@ -12,7 +12,8 @@ sort_info: 3
 My research domain is software engineering, more precisely software **evolution**, **reengineering**, and **language design**.
 As [Kent Beck writes](http://www.threeriversinstitute.org/blog/?p=363):
 
-> Succession is the price of success. The needs of the design evolve.
+> Succession is the price of success.  
+> The needs of the design evolve.
 
 I'm interested in making tools to better understand existing software, and to (pro)actively support its evolution though more expressive or simpler programming tools:
 
@@ -40,6 +41,12 @@ Tools, Language Design, Models
 
 
 ### Conference Organization
+
+###### Benevol 2010
+Inria Lille organizes the [9th Benevol seminar][benevol2010] in Lille, France, on the 16--17 december 2010.
+I'm a member of the organizing committee and responsible for the website.
+
+[benevol2010]: http://rmod.lille.inria.fr/benevol
 
 ###### WCRE 2009
 [RMoD][] organizes [WCRE'09][wcre09] in Lille, France, at [Telecom Lille 1][telecom]. I'm also chair for the workshops with [Yann-Gaël Guéhéneuc](http://www.yann-gael.gueheneuc.net/).
