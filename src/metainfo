@@ -20,9 +20,14 @@ publications:
 research:
     index_path: index.en.html
     sort_info: 3
-teaching:
+software:
     index_path: index.en.html
     sort_info: 4
+software/*:
+    draft: true
+teaching:
+    index_path: index.en.html
+    sort_info: 5
 
 notes:
     index_path: index.en.html
