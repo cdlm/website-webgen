@@ -31,18 +31,16 @@ I received an engineering degree in computer science from [Insa][] in 2001, and 
 
 ## News
 
+###### Smalltalks 2010 --- November 11--13, Conceptión del Uruguay, Argentina
+I'm a member of the program committee of the research track of [Smalltalks 2010](http://www.fast.org.ar/fast). Selected papers will be published in a special edition of the [Elsevier COMLAN](http://www.elsevier.com/wps/find/journaldescription.cws_home/638299/description) journal.
+
+
 ###### Benevol 2010 --- December 16--17, Lille, France
 I'm a member of the organizing committee of this [two-day seminar on software evolution](http://rmod.lille.inria.fr/benevol).
 
-###### ESUG 2010 --- September 11--17, Barcelona, Spain
-The [team][rmod] is attending [ESUG](http://esug.org/wiki/pier/Conferences/2010).
 
-###### New member
-[Nicolas Paez](http://web.fi.uba.ar/~npaez/) joined us to work on the virtual machine and on image bootstrapping.
-
-
-###### Still growing
-[Jean-Rémy Falleri](http://www.lirmm.fr/~falleri) just joined [RMoD][rmod] as a Post-doc during 2009--2010.
+###### New members
+[Nicolas Paez](http://web.fi.uba.ar/~npaez/) joined us with Gabriel Barbuto and Martin Dias to work on the virtual machine and on image bootstrapping.
 
 
 ###### Squeak by Example on Amazon
@@ -60,34 +58,22 @@ A PDF and a printed version will be available soon.
 [esug09]: http://www.esug.org/Conferences/09
 
 
-###### New members
-[RMoD][] welcomes three new members in 2009: two permanent positions, [Marcus Denker](http://marcusdenker.de) ([Inria][]) and [Nicolas Anquetil](http://www.linkedin.com/pub/nicolas-anquetil/7/a78/9b5) ([USTL][]), and a new Ph.D. student, Jean-Baptiste Arnaud. Cyrille Delaunay, who just finished his masters internship, stays with us as a research engineer.
-
-
 <!-- ### Upcoming Events -->
 
 
 ### Past Events
 
+###### OSDC.fr 2010 --- October 9--10, Paris, France
+I attended the [Open Source Developers Conference](http://act.osdc.fr/osdc2010fr/) at at La Cité des Sciences et de l'Industrie, in Paris.
+
+
+###### ESUG 2010 --- September 11--17, Barcelona, Spain
+The whole [team][rmod] attended [ESUG](http://esug.org/wiki/pier/Conferences/2010).
+I'm slowly uploading [the photos Marcus and I took on Flickr](http://www.flickr.com/photos/damienpollet/sets/72157624964077021).
+
 
 ###### Sattose 2010 --- April 26--29, Montpellier, France
-
 Four day [Seminar on Advanced Techniques & Tools for Software Evolution](http://www.lirmm.fr/sattose10/index.php/Main/HomePage).
-
-
-###### BlockCamp --- November 28, Paris, France
-
-A one-day event co-organized by the Ruby-fr and Smalltalk-fr communities, and sponsorized by [ESUG][]. [More info here](http://community.ofset.org/index.php/Smalltalk_Party_Paris_2009).
-
-
-###### Pharo sprint --- October 17--20, Lille, France
-Four days of intensive bug fixing, finalizing the 1.0 release of [Pharo][], and preparing 1.1.
-
-
-###### WCRE 2009 --- October 13--16, Lille, France
-We hosted the [16th Working Conference on Reverse Engineering][wcre09], for which I chair the workshops with [Yann-Gaël Guéhéneuc](http://www.yann-gael.gueheneuc.net/).
-
-[wcre09]: http://web.soccerlab.polymtl.ca/wcre2009/
 
 
 <!--
