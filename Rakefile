@@ -21,12 +21,19 @@ end
 
 desc "Open the home page"
 task :open => :webgen do
-  system 'open http://localhost/~damien/website/'
+  system 'open', 'http://localhost/~damien/website/'
 end
 
 desc "RSync to ryu.zarb.org"
 task :rsync_ryu => :webgen do
-  system 'rsync -ave ssh --delete out/ ryu.zarb.org:/home/users/cdlm/vhosts/people.untyped.org/docroot/damien.pollet'
+  system 'rsync',
+    '--rsh=ssh',
+    '--archive',
+    # '--checksum',
+    '--delete',
+    '--verbose',
+    'out/',
+    'ryu.zarb.org:/home/users/cdlm/vhosts/people.untyped.org/docroot/damien.pollet'
 end
 
 desc "Render the website automatically on changes"
