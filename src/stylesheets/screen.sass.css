@@ -157,7 +157,8 @@ a
     .title
       font-weight: bold
     .notes
-      margin-left: 1ex
+      display: block
+      margin: .5ex 0
       color: #666666
   .highlight, .banner
     margin: 1em -14.5em 1em -14.5em !important
