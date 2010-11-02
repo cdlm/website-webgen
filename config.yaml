@@ -17,10 +17,10 @@ default_meta_info:
       visualisation,
       virtual machines,
       object-oriented
-    
+
 default_processing_pipeline:
   Page: blocks,erb,tags,kramdown,head,fragments
-  
+
 
 website.lang: en
 tag.langbar.show_single_lang: false
@@ -31,6 +31,7 @@ tag.date.format: "%Y-%m-%d"
 tag.includefile.process_output: true
 tag.includefile.escape_html: false
 tag.metainfo.escape_html: false
+tag.menu.used_nodes: files
 
 patterns:
   Copy:

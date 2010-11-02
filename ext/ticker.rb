@@ -9,10 +9,10 @@
 #   news:
 #     - title: Hello
 #       date: 2010-10-01
-#       contents: First news.
+#       text: First news.
 #     - title: World
 #       date: 2010-10-02
-#       contents: Second news.
+#       text: Second news.
 #
 # The idea is that either the news are specific to the page, or they are displayed somewhere else
 # but the page with the +news+ metadata will act as an archive page, by using something like:
@@ -22,7 +22,7 @@
 module Ticker
 
   # A single news record
-  NewsItem = Struct.new :title, :date, :contents
+  NewsItem = Struct.new :title, :date, :text
   class NewsItem
     def id
       "#{title.gsub(/[^\w_-]/, '-')}-#{date}"
@@ -35,7 +35,7 @@ module Ticker
     def render_on io
       io << <<-EOS
 <h6 title='#{format_date}'>#{title}</h6>
-#{contents}
+#{text}
 
 EOS
     end
@@ -68,7 +68,7 @@ EOS
     end
 
     def load_items( data )
-      data = data.map { |d|  NewsItem.new d['title'], d['date'], d['contents'] }
+      data = data.map { |d|  NewsItem.new d['title'], d['date'], d['text'] }
       if @chronological # does not make much sense if there are more than @number items...
         data.sort { |x, y|  x.date <=> y.date }
       else

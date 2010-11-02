@@ -18,44 +18,21 @@ I am assistant professor (*Maître de conférences*) at the [university of Lille
 I [teach](/teaching/) programming and software engineering at [Telecom Lille 1][telecom],
 and [research](/research/) on reengineering at [Inria][] within the [RMoD project-team][rmod].
 
-I'm a co-author of the open-source books [Squeak by Example][sbe] and [Pharo by Example][pbe].
+I'm a co-author of the open-source books [*Squeak by Example*][sbe] and [*Pharo by Example*][pbe].
 
 ##### Curriculum
-I received an engineering degree in computer science from [Insa][] in 2001, and obtained my Ph.D in 2005 from the [university of Rennes 1][rennes1], France ([details here](/curriculum.html)).
+I received an engineering degree in computer science from [Insa][] in 2001, and obtained my Ph.D in 2005 from the [university of Rennes 1][rennes1], France ([details here](curriculum.html)).
 
 [ieea]: http://ieea.univ-lille1.fr "Unité de Formation et de Recherche d’Informatique, Électronique, Électrotechnique et Automatique"
 [insa]: http://www.insa-rennes.fr/?LangueID=2 "Institut National des Sciences Appliquées"
 [rennes1]: http://www.univ-rennes1.fr/english/
 
-
+----
 
 ## News
 
-###### Smalltalks 2010 --- November 11--13, Conceptión del Uruguay, Argentina
-I'm a member of the program committee of the research track of [Smalltalks 2010](http://www.fast.org.ar/fast). Selected papers will be published in a special edition of the [Elsevier COMLAN](http://www.elsevier.com/wps/find/journaldescription.cws_home/638299/description) journal.
+{ticker: {path: archives/news.html, more: News archive…}}
 
-
-###### Benevol 2010 --- December 16--17, Lille, France
-I'm a member of the organizing committee of this [two-day seminar on software evolution](http://rmod.lille.inria.fr/benevol).
-
-
-###### New members
-[Nicolas Paez](http://web.fi.uba.ar/~npaez/) joined us with Gabriel Barbuto and Martin Dias to work on the virtual machine and on image bootstrapping.
-
-
-###### Squeak by Example on Amazon
-It's now possible to [order the book on Amazon.com](http://www.amazon.co.uk/gp/product/3952334103?ie=UTF8&tag=playingtenu0f-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=3952334103).
-
-
-###### Pharo by Example
-[The book is out!][pbe] Download the free PDF, or [order a paper copy at Lulu](http://www.lulu.com/content/paperback-book/pharo-by-example/7522128).
-
-
-###### Seaside book
-[_Dynamic Web Development with Seaside_](http://book.seaside.st) is a free online book [announced](http://www.lukas-renggli.ch/blog/dynamic-web-dev) by [Lukas](http://www.lukas-renggli.ch) and [Julian](http://blog.fitzell.ca/) at [ESUG][esug09].
-A PDF and a printed version will be available soon.
-
-[esug09]: http://www.esug.org/Conferences/09
 
 
 <!-- ### Upcoming Events -->
