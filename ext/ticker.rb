@@ -1,5 +1,27 @@
+# Generate a chronologically sorted list of short news items from the metainfo of a node.
+#
+# Damien Pollet, Nov 2010
+#
+# This module provides the +ticker+ tag, for including a few selected news items in a page file.
+# The news data is a simple YAML sequence in the metainfo of a regular page, under the +news+ key,
+# each news item being a mapping with three keys, as follows:
+#
+#   news:
+#     - title: Hello
+#       date: 2010-10-01
+#       contents: First news.
+#     - title: World
+#       date: 2010-10-02
+#       contents: Second news.
+#
+# The idea is that either the news are specific to the page, or they are displayed somewhere else
+# but the page with the +news+ metadata will act as an archive page, by using something like:
+#
+#   {ticker: {number: ~}}
+#
 module Ticker
 
+  # A single news record
   NewsItem = Struct.new :title, :date, :contents
   class NewsItem
     def id
@@ -9,71 +31,97 @@ module Ticker
     def format_date
       date.strftime '%d %b %G'
     end
+
+    def render_on io
+      io << <<-EOS
+<h6 title='#{format_date}'>#{title}</h6>
+#{contents}
+
+EOS
+    end
   end
 
 
+  # Converting data to more convenient Ruby objects without using fancy YAML syntax
   class News
-    
-    def initialize( io, number=5, more=true )
-      @number, @more = number, more
-      @items = read_items io
+
+    def initialize( data, more, chronological, number )
+      @more, @chronological, @number = more, chronological, number
+      @items = load_items data
     end
-    
+
+    def empty?
+      @items.empty?
+    end
+
+    def more
+      return nil unless @number
+      @items.size > @number  ?  @more  :  nil
+    end
+
     def all_items
       @items
     end
-    
+
     def items
-      self.all_items.first @number
+      @number  ?  self.all_items.first(@number)  :  self.all_items
     end
-    
-    def read_items(io)
-      yaml = begin
-          YAML.load(io) || []
-        rescue ArgumentError, SystemCallError
-          []
-        end
-      yaml.map { |d|
-          NewsItem.new d['title'], d['date'], d['contents']
-        }.sort { |x, y|  y.date <=> x.date }
+
+    def load_items( data )
+      data = data.map { |d|  NewsItem.new d['title'], d['date'], d['contents'] }
+      if @chronological # does not make much sense if there are more than @number items...
+        data.sort { |x, y|  x.date <=> y.date }
+      else
+        data.sort { |x, y|  y.date <=> x.date }
+      end
     end
+
   end
-  
-  
+
+
+  # Selects a few items from the news in the metainfo of the given page and displays them.
+  # Basic usage: +{ticker: path/to/withnews.page}+
+  # If used with a body, it will be displayed before the items, and only if there are items.
   class Tag
     include Webgen::Tag::Base
-    include
-    def call( tag, body, context )
-      news_node = context.node.resolve(param('ticker.path'))
-      # (context.dest_node.node_info[:tag_ticker_filenames] ||= []) << [node.path, File.mtime(node.path)] #incorrect, should be used_nodes
-      context.dest_node.node_info[:used_nodes] << news_node
 
-      news_src_path = website.blackboard.invoke(:source_paths)[news_node.node_info[:src]]
-      news = news_src_path.io.stream { |io|
-        News.new io, param('ticker.number'), param('ticker.more')
-      }
-      news.all_items.size
+    def call( tag, body, context )
+      # locate the node with the news items in yaml & record dependency
+      news_node = if param('ticker.path').nil?
+          context.node
+        else
+          context.ref_node.resolve(param('ticker.path'), context.dest_node.lang)
+        end
+      context.dest_node.node_info[:used_nodes] << news_node.alcn
+      # load & display news items
+      news = News.new news_node.meta_info['news'], param('ticker.more'), param('ticker.chronological'), param('ticker.number')
+      result = ""
+      unless news.empty?
+        StringIO.open result do |io|
+          io << body if body
+          news.items.each do |item|  item.render_on io  end
+          if news.more
+            io.puts context.tag('link', 'path' => news_node.alcn, 'attr' => {:link_text => news.more})
+          end
+        end
+      end
+      result
     end
-    
-    # def node_changed?(node)
-    #   if filenames = node.node_info[:tag_ticker_filenames]
-    #     node.flag(:dirty) if filenames.any? { |f, mtime| File.mtime(f) > mtime }
-    #   end
-    # end
-    
-    # redefine this because by default it would be ticker.tag
+
+    # redefinition from default ticker.tag
     def tag_config_base()  'ticker'  end
   end
-    
+
 end
 
 
 config = Webgen::WebsiteAccess.website.config
 config['contentprocessor.tags.map']['ticker'] = 'Ticker::Tag'
 config.ticker.path nil,
-  :doc => 'Path to the YAML data node. Mandatory.',
-  :mandatory => 'default'
+  :doc => 'Path to the node with the news data. Current node if omitted.'
 config.ticker.number 5,
-  :doc => 'Number of entries to display. Defaults to 5.'
-config.ticker.more true,
-  :doc => 'Set to false to disable the "Read more..." link.'
+  :doc => 'Number of entries to display, or ~ (nil). Defaults to 5.'
+config.ticker.more nil,
+  :doc => 'Text of the link to all news items. No link displayed if omitted.'
+config.ticker.chronological false,
+  :doc => 'Display items in chronological order rather than from newest to oldest.'

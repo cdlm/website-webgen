@@ -13,16 +13,9 @@ This page is here to test and showcase design elements before using them in visi
 They can take several lines, but only one &para;!
 
 
+{ticker:: {path: testticker.html, number: 3, more: Older news…}}
 ## Testing the ticker
-
-<% Ticker::News.new(File.open("src/sandbox/news.ticker")).items.each do |item| %>
-###### <%= item.title %>
-{: title="<%= item.format_date %>"}
-
-<%= item.contents %>
-<% end %>
-
-{ticker: news.ticker}
+{ticker}
 
 
 ## Maths

@@ -1,0 +1,29 @@
+---
+title: Testing news
+news:
+  - title: Hello
+    date: 2010-10-01
+    contents: First news.
+  - title: World
+    date: 2010-10-02
+    contents: Second news.
+  - title: meh
+    date: 2010-10-03
+    contents: Third news.
+  - title: meh
+    date: 2010-10-06
+    contents: Sixth news --- Sith?
+  - title: meh
+    date: 2010-10-04
+    contents: Fourth news.
+  - title: meh
+    date: 2010-10-05
+    contents: Fifth news.
+---
+# {title:}
+
+{ticker:: {number: ~}}
+And below, please admire the definitive, complete, and unabridged list of all news, ever!
+{: .highlight}
+
+{ticker}

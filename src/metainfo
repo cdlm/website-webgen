@@ -8,10 +8,10 @@ scripts/*:
     index_path: ~
     in_menu: false
 archives/*:
-    # draft: true
+    draft: true
     in_menu: false
 sandbox/*:
-    # draft: true
+    draft: true
     in_menu: false
 
 publications:
