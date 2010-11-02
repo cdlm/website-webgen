@@ -5,7 +5,7 @@ in_menu: false
 ---
 # {title:}
 
-This page is here to test and showcase design elements before using them in visible places on this site.[^foot] Also, consider the [amount of stuff still to do](todo).
+This page is here to test and showcase design elements before using them in visible places on this site.[^foot] Also, consider the [amount of stuff still to do](todo.html).
 {: .highlight}
 
 [^foot]: Such as, Maruku's footnotes[^cool]
@@ -68,9 +68,9 @@ Hey, pay attention to this great piece of news: my CSS skillz rule =]
 ## Tables
 | Foo | Bar | Baz | Quux | Full Total
 |-----|-----|-----|:----:|------------:
-| Gah | Bhu | Zoo | Meuh | 42&thinsp;€
-| Meuh | Bhu | Zoo | Gah | 42&thinsp;€
-| Gah | Bhu | Zoo | Meuh | 51&thinsp;€
+| Gah | Bhu | Zoo | Meuh | 42&#8201;€
+| Meuh | Bhu | Zoo | Gah | 42&#8201;€
+| Gah | Bhu | Zoo | Meuh | 51&#8201;€
 | Cell with a quite long entry, it's really cool that it folds when the table reaches its maximum width so that the table isn't too distorted… | | | | 
 | Cells filled in order, not a new line
 | but… | | | | this *is*.
