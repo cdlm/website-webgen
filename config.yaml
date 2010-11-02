@@ -35,6 +35,7 @@ tag.metainfo.escape_html: false
 patterns:
   Copy:
     add: [**/*.pdf]
+    add: [**/*.ticker]
 
 sources:
   - ['/', Webgen::Source::FileSystem, 'src']

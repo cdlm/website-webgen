@@ -12,6 +12,26 @@ This page is here to test and showcase design elements before using them in visi
 [^cool]: Aren't they cute?  
 They can take several lines, but only one &para;!
 
+
+## Testing the ticker
+
+<% Ticker::News.new(File.open("src/sandbox/news.ticker")).items.each do |item| %>
+###### <%= item.title %>
+{: title="<%= item.format_date %>"}
+
+<%= item.contents %>
+<% end %>
+
+{ticker: news.ticker}
+
+
+## Maths
+
+$$
+  e^{i\pi} = -1
+$$
+
+
 ## Testing what headings look like
 
 Lipsum is for dummies, fill this file with your *own* data, **I *mean* it!!!**

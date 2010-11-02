@@ -10,3 +10,4 @@ load 'ext/mailto.rb'
 load 'ext/randomimg.rb'
 load 'ext/blog.rb'
 Blog.setup
+load 'ext/ticker.rb'
