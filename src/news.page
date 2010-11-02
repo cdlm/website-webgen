@@ -1,0 +1,108 @@
+---
+title: News archive
+in_menu: false
+news:
+
+  - title: Smalltalks 2010 --- November 11--13, Conceptión del Uruguay, Argentina
+    date: 2010-11-11
+    text: >
+      I'm a member of the program committee for the research track of [Smalltalks 2010](http://www.fast.org.ar/fast).
+      Selected papers will be published in a special edition of the [Elsevier COMLAN](http://www.elsevier.com/wps/find/journaldescription.cws_home/638299/description) journal.
+
+  - title: Benevol 2010 --- December 16--17, Lille, France
+    date: 2010-12-16
+    text: I'm a member of the organizing committee of this [two-day seminar on software evolution](http://rmod.lille.inria.fr/benevol).
+
+  - title: OSDC.fr 2010 --- October 9--10, Paris, France
+    date: 2010-10-09
+    text: I attended the [Open Source Developers Conference](http://act.osdc.fr/osdc2010fr/) at at La Cité des Sciences et de l'Industrie, in Paris.
+
+  - title: ESUG 2010 --- September 11--17, Barcelona, Spain
+    date: 2010-09-11
+    text: >
+      The whole [team][rmod] attended [ESUG](http://esug.org/wiki/pier/Conferences/2010).
+      I'm slowly uploading [the photos Marcus and I took on Flickr](http://www.flickr.com/photos/damienpollet/sets/72157624964077021).
+
+  - title: New members
+    date: 2010-08-01
+    text: >
+      [Nicolas Paez](http://web.fi.uba.ar/~npaez/) joined us with Gabriel Barbuto and Martin Dias to work on the virtual machine and on image bootstrapping.
+
+  - title: Sattose 2010 --- April 26--29, Montpellier, France
+    date: 2010-04-26
+    text: Four day [Seminar on Advanced Techniques & Tools for Software Evolution](http://www.lirmm.fr/sattose10/index.php/Main/HomePage).
+
+  - title: Seaside book
+    date: 2010-01-27
+    text: >
+      [*Dynamic Web Development with Seaside*](http://book.seaside.st) is a free online book [announced](http://www.lukas-renggli.ch/blog/dynamic-web-dev) by [Lukas](http://www.lukas-renggli.ch) and [Julian](http://blog.fitzell.ca/) at [ESUG](http://www.esug.org/Conferences/09).
+      A PDF and a printed version will be available soon.
+
+  - title: BlockCamp --- November 28, Paris, France
+    date: 2009-11-28
+    text: A one-day event co-organized by the Ruby-fr and Smalltalk-fr communities, and sponsorized by [ESUG][]. [More info here](http://community.ofset.org/index.php/Smalltalk_Party_Paris_2009).
+
+  - title: Squeak by Example on Amazon
+    date: 2009-11-10
+    text: >
+      It's now possible to [order the book on Amazon.com](http://www.amazon.co.uk/gp/product/3952334103?ie=UTF8&tag=playingtenu0f-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=3952334103).
+
+  - title: Post-doc arrival
+    date: 2009-11-01
+    text: >
+      [Jean-Rémy Falleri](http://www.lirmm.fr/~falleri) joins [RMoD][rmod] during 2009--2010.
+
+  - title: Pharo by Example
+    date: 2009-10-18
+    text: >
+      [The book is out!][pbe] Download the free PDF, or order a paper copy at [Lulu](http://www.lulu.com/content/paperback-book/pharo-by-example/7522128) or [Amazon](http://www.amazon.fr/gp/product/3952334146?ie=UTF8&tag=playingtenuki-21&linkCode=as2&camp=1642&creative=19458&creativeASIN=3952334146).
+
+  - title: Pharo sprint --- October 17--20, Lille, France
+    date: 2009-10-17
+    text: Four days of intensive bug fixing, finalizing the 1.0 release of [Pharo][], and preparing 1.1.
+
+  - title: WCRE 2009 --- October 13--16, Lille, France
+    date: 2009-10-13
+    text: We hosted the [16th Working Conference on Reverse Engineering](http://web.soccerlab.polymtl.ca/wcre2009/), for which I chair the workshops with [Yann-Gaël Guéhéneuc](http://www.yann-gael.gueheneuc.net/).
+
+  - title: OSDC.fr 2009 --- October 2--3, Paris, France
+    date: 2009-10-02
+    text: I attended the [Open Source Developers Conference](http://act.osdc.fr/osdc2009fr/) at at La Cité des Sciences et de l'Industrie, in Paris. Here are [my few photos of the event](http://www.flickr.com/photos/damienpollet/sets/72157622391742069/).
+
+  - title: New members
+    date: 2009-09-01
+    text: >
+      [RMoD][] welcomes three new members in 2009: two permanent positions,
+      [Marcus Denker](http://marcusdenker.de) ([Inria][]) and
+      [Nicolas Anquetil](http://www.linkedin.com/pub/nicolas-anquetil/7/a78/9b5) ([USTL][]),
+      and a new Ph.D. student, Jean-Baptiste Arnaud.
+      Cyrille Delaunay, who just finished his masters internship, stays with us as a research engineer.
+
+  - title: ESUG 2009 --- August 31--September 4, Brest, France.
+    date: 2009-08-31
+    text: >
+      I attended the [2009 International Smalltalk Conference](http://www.esug.org/Conferences/09)
+      and joint workshop [IWST'09](http://www.esug.org/Conferences/2009/InternationalWorkshop "International Workshop on Smalltalk Technologies"), organized by [ESUG][].
+      I presented [Citezen](http://squeaksource.com/Citezen.html "BibTeX-compatible bibliography Pier plugin and tools")
+      to the [Innovation Technology Awards](http://www.esug.org/Conferences/2009/Innovation+Technology+Awards).
+      Here are [my photos of the event](http://www.flickr.com/photos/damienpollet/collections/72157622253550888/);
+      other photos, as well as talk slides, are available via the conference website.
+
+  - title: Pharo 1.0 beta
+    date: 2009-07-31
+    text: >
+      [Pharo][] has reached beta status! The first beta version was released on July 31, 2009; still [lots of work ahead](http://code.google.com/p/pharo/issues/list?q=milestone=1.0), but this certainly is a good milestone towards a full 1.0 release.
+
+  - title: Pharo by Example
+    date: 2009-07-01
+    text: We're adapting [Squeak by Example][sbe] to the new stuff in [Pharo][], and the book will also feature additional chapters. Release due soon.
+
+---
+# {title:}
+
+{ticker:: {number: ~}}
+All [front page news](index.html#news), in reverse chronological order.
+
+{ticker}
+
+{include_file: src/links.markdown}

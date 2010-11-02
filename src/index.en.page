@@ -31,32 +31,8 @@ I received an engineering degree in computer science from [Insa][] in 2001, and 
 
 ## News
 
-{ticker: {path: archives/news.html, more: News archive…}}
+{ticker: {path: news.html, more: News archive…}}
 
-
-
-<!-- ### Upcoming Events -->
-
-
-### Past Events
-
-###### OSDC.fr 2010 --- October 9--10, Paris, France
-I attended the [Open Source Developers Conference](http://act.osdc.fr/osdc2010fr/) at at La Cité des Sciences et de l'Industrie, in Paris.
-
-
-###### ESUG 2010 --- September 11--17, Barcelona, Spain
-The whole [team][rmod] attended [ESUG](http://esug.org/wiki/pier/Conferences/2010).
-I'm slowly uploading [the photos Marcus and I took on Flickr](http://www.flickr.com/photos/damienpollet/sets/72157624964077021).
-
-
-###### Sattose 2010 --- April 26--29, Montpellier, France
-Four day [Seminar on Advanced Techniques & Tools for Software Evolution](http://www.lirmm.fr/sattose10/index.php/Main/HomePage).
-
-
-<!--
-    [All past events…](archives/events.html)
-    [Older news…](archives/news.html)
--->
 
 
 ###### Software evolves!
