@@ -31,3 +31,9 @@ A parser and processor for [John Gruber's Markdown][markdown], written using [Lu
 
 [markdown]: http://daringfireball.net/projects/markdown/
 [petitparser]: http://scg.unibe.ch/research/helvetia/petitparser
+
+
+### JOT LaTeX Document Class
+Typography and LaTeX document class for the new format for submissions to the [Journal of Object Technology (JOT)][jot].
+
+[jot]: http://www.jot.fm
