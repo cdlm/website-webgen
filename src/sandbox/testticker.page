@@ -2,22 +2,22 @@
 title: Testing news
 news:
   - title: Hello
-    date: 2010-10-01
+    when: 2010-10-01
     text: First news.
   - title: World
-    date: 2010-10-02
+    when: 2010-10-02
     text: Second news.
   - title: meh
-    date: 2010-10-03
+    when: 2010-10-03
     text: Third news.
   - title: meh
-    date: 2010-10-06
+    when: 2010-10-06
     text: Sixth news --- Sith?
   - title: meh
-    date: 2010-10-04
+    when: 2010-10-04
     text: Fourth news.
   - title: meh
-    date: 2010-10-05
+    when: 2010-10-05
     text: Fifth news.
 ---
 # {title:}

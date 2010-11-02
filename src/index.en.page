@@ -29,10 +29,13 @@ I received an engineering degree in computer science from [Insa][] in 2001, and 
 
 ----
 
+{ticker:: {path: news.html, more: Older news…}}
 ## News
+{ticker}
 
-{ticker: {path: news.html, more: News archive…}}
-
+{ticker:: {path: news.html, number: ~, period: :upcoming}}
+## Upcoming
+{ticker}
 
 
 ###### Software evolves!
