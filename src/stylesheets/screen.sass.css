@@ -20,13 +20,13 @@ $marker_color: rgb(255, 214, 20)
 =right
   clear: right
   float: right
-  margin: 0 -12.5em 2em 2em
+  margin-right: -12.5em !important
   text-align: left
 
 =left
   clear: left
   float: left
-  margin: 0 2em 2em -12.5em
+  margin-left: -12.5em !important
   text-align: right
 
 =marker
@@ -37,6 +37,7 @@ $marker_color: rgb(255, 214, 20)
 
 =inmargin
   width: 10em
+  margin: 0 2em
   color: #aaaaaa
   a
     color: rgb(144, 175, 200)
@@ -183,8 +184,8 @@ a
   p.right, p.left
     +inmargin
   .postmeta
-    +left
     +inmargin
+    +left
     .date, .tags
       display: block
 
