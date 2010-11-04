@@ -17,6 +17,10 @@ news:
     when: [2010-12-16, 2010-12-17]
     text: I'm a member of the organizing committee of this [two-day seminar on software evolution](http://rmod.lille.inria.fr/benevol).
 
+  - title: New intern
+    when: 2010-11-02
+    text: Benjamin Van Ryseghem is a student from the [IUT](http://www-iut.univ-lille1.fr/) joining us to hack on Pharo.
+
   - title: OSDC.fr 2010 --- October 9--10, Paris, France
     when: [2010-10-09, 2010-10-10]
     text: I attended the [Open Source Developers Conference](http://act.osdc.fr/osdc2010fr/) at at La Cité des Sciences et de l'Industrie, in Paris.
