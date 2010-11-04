@@ -4,7 +4,7 @@ routed_title: Enseignement
 draft: true
 ---
 {include_file: src/links.markdown}
-[![Logo Telecom]({relocatable: /images/telecom-128.jpg}){: .noframe}][telecom]
+[![Logo Telecom]({relocatable: /images/telecom-128.png}){: .noframe}][telecom]
 {: .right}
 
 # {title:}
