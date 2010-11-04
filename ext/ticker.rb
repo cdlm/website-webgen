@@ -55,7 +55,10 @@ module Ticker
 
     def render_on io
       io << <<-EOS
-<h6 title='#{format_when}'>#{title}</h6>
+
+###### #{title}
+{: title='#{format_when}'}
+
 #{text}
 
 EOS
