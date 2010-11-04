@@ -3,6 +3,10 @@ title: News archive
 in_menu: false
 news:
 
+  - title: Journées IDM & GDR-GPL --- June 7--10, Lille
+    when: [2011-06-07, 2011-06-10]
+    text: Two co-located [national meetings on model-driven engineering and programming](http://www.lifl.fr/idm-gpl). _Venez nombreux !_
+
   - title: Smalltalks 2010 --- November 11--13, Conceptión del Uruguay, Argentina
     when: [2010-11-11, 2010-11-13]
     text: >
