@@ -33,7 +33,8 @@ class Blog
   TAG_CLOUD = "tag_cloud"
   TAG_NODES = "tag nodes"
 
-  def self.setup()
+  # registration with webgen
+  def self.init
     config = Webgen::WebsiteAccess.website.config
 
     config.patterns('Blog' => ['**/*.blog'])

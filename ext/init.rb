@@ -5,9 +5,8 @@
 #
 # If you don't need this feature you can savely delete this file and the directory in which it is!
 
-load 'ext/lipsum.rb'
-load 'ext/mailto.rb'
-load 'ext/randomimg.rb'
-load 'ext/blog.rb'
-Blog.setup
-load 'ext/ticker.rb'
+require 'ext/lipsum.rb'
+require 'ext/mailto.rb'; Mailto.init
+require 'ext/randomimg.rb'; RandomImg.init
+require 'ext/blog.rb'; Blog.init
+require 'ext/ticker.rb'; Ticker.init

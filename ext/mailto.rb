@@ -18,14 +18,16 @@ class Mailto
     return entities
   end
 
+  # registration with webgen
+  def self.init
+    config = Webgen::WebsiteAccess.website.config
+    config['contentprocessor.tags.map']['mailto'] = 'Mailto'
+    config.mailto.to nil,
+      :doc => 'The destination email address. Mandatory.',
+      :mandatory => 'default'
+    config.mailto.link nil,
+      :doc => 'The linked text. Defaults to the email address.'
+    config.mailto.subject nil,
+      :doc => 'The subject of the mail message. Optional.'
+  end
 end
-
-config = Webgen::WebsiteAccess.website.config
-config['contentprocessor.tags.map']['mailto'] = 'Mailto'
-config.mailto.to nil,
-  :doc => 'The destination email address. Mandatory.',
-  :mandatory => 'default'
-config.mailto.link nil,
-  :doc => 'The linked text. Defaults to the email address.'
-config.mailto.subject nil,
-  :doc => 'The subject of the mail message. Optional.'

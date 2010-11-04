@@ -149,18 +149,19 @@ EOS
     def tag_config_base()  'ticker'  end
   end
 
+  # registration with webgen
+  def self.init
+    config = Webgen::WebsiteAccess.website.config
+    config['contentprocessor.tags.map']['ticker'] = 'Ticker::Tag'
+    config.ticker.path nil,
+      :doc => 'Path to the node with the news data. Current node if omitted.'
+    config.ticker.period :past,
+      :doc => 'Which news to display. Either of :past (default), :upcoming, or :all.'
+    config.ticker.number 5,
+      :doc => 'Number of entries to display, or ~ (nil). Defaults to 5.'
+    config.ticker.more nil,
+      :doc => 'Text of the link to all news items. No link displayed if omitted.'
+    config.ticker.chronological nil,
+      :doc => 'Display items in chronological order (true), from newest to oldest (false), or according to period (nil, the default).'
+  end
 end
-
-
-config = Webgen::WebsiteAccess.website.config
-config['contentprocessor.tags.map']['ticker'] = 'Ticker::Tag'
-config.ticker.path nil,
-  :doc => 'Path to the node with the news data. Current node if omitted.'
-config.ticker.period :past,
-  :doc => 'Which news to display. Either of :past (default), :upcoming, or :all.'
-config.ticker.number 5,
-  :doc => 'Number of entries to display, or ~ (nil). Defaults to 5.'
-config.ticker.more nil,
-  :doc => 'Text of the link to all news items. No link displayed if omitted.'
-config.ticker.chronological nil,
-  :doc => 'Display items in chronological order (true), from newest to oldest (false), or according to period (nil, the default).'
