@@ -101,7 +101,6 @@ a
     color: $headings_color
     margin: 2ex 0 1ex 0
   h1
-    // font-size: 2em
     font-size: 250%
   h2
     font-size: 180%
@@ -131,10 +130,11 @@ a
       font-weight: bold
       margin-left: -1em
   hr
-    width: 75%
+    background-color: #666666
+    width: 62%
     height: 1px
     border: none
-    background-color: #666666
+    margin: 4ex auto
   address
     margin: 1ex 0
   blockquote, pre
