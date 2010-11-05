@@ -17,6 +17,11 @@ news:
     when: [2010-12-16, 2010-12-17]
     text: I'm a member of the organizing committee of this [two-day seminar on software evolution](http://rmod.lille.inria.fr/benevol).
 
+  - title: New PhD student
+    when: 2010-10-01
+    text: >
+      [Nick Papoylias](http://www.softnet.tuc.gr/~whoneedselta/misha/) joined Mariano and [Noury](http://car.mines-douai.fr/noury) in Douai.
+
   - title: New intern
     when: 2010-11-02
     text: Benjamin Van Ryseghem is a student from the [IUT](http://www-iut.univ-lille1.fr/) joining us to hack on Pharo.
