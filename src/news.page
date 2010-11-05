@@ -20,7 +20,7 @@ news:
   - title: New PhD student
     when: 2010-10-01
     text: >
-      [Nick Papoylias](http://www.softnet.tuc.gr/~whoneedselta/misha/) joined Mariano and [Noury](http://car.mines-douai.fr/noury) in Douai.
+      [Nick Papoylias](http://www.softnet.tuc.gr/~whoneedselta/misha/) joined [Noury](http://car.mines-douai.fr/noury), [Luc](http://luc.fabresse.free.fr/), and Mariano in Douai.
 
   - title: New intern
     when: 2010-11-02
@@ -39,7 +39,7 @@ news:
   - title: New members
     when: 2010-08-01
     text: >
-      [Nicolas Paez](http://web.fi.uba.ar/~npaez/) joined us with Gabriel Barbuto and Martin Dias to work on the virtual machine and on image bootstrapping.
+      [Nicolas Paez](http://web.fi.uba.ar/~npaez/) joined us with Gabriel Barbuto and Martin Dias to work on image minimizing and bootstrapping, as well as fast object loading. 
 
   - title: Sattose 2010 --- April 26--29, Montpellier, France
     when: [2010-04-26, 2010-04-29]
