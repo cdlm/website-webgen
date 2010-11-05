@@ -41,6 +41,10 @@ module Ticker
       planified?  ?  dates[-1]  :  dates
     end
 
+    def year
+      on_date.year
+    end
+
     def format_when
       if planified?
         if on_date == until_date
@@ -139,7 +143,11 @@ EOS
       unless news.empty?
         StringIO.open result do |io|
           io << body if body
-          news.items.each do |item|  item.render_on io  end
+          year = nil
+          news.items.each do |item|
+            io << "\n### #{year = item.year}\n" if param('ticker.years') && year != item.year
+            item.render_on io
+          end
           if news.more
             io.puts context.tag('link', 'path' => news_node.alcn, 'attr' => {:link_text => news.more})
           end
@@ -166,5 +174,7 @@ EOS
       :doc => 'Text of the link to all news items. No link displayed if omitted.'
     config.ticker.chronological nil,
       :doc => 'Display items in chronological order (true), from newest to oldest (false), or according to period (nil, the default).'
+    config.ticker.years nil,
+      :doc => 'Group news items by year using headers.'
   end
 end
