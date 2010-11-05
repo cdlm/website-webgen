@@ -1,5 +1,5 @@
-@import src/stylesheets/reset
 @import animations.css
+@import src/stylesheets/reset
 
 $body_color: rgb(95, 166, 68)
 $body_alt_color: rgb(72, 142, 69)
