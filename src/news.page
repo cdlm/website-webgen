@@ -113,7 +113,7 @@ news:
 ---
 # {title:}
 
-{ticker:: {number: ~}}
+{ticker:: {number: ~, years: true}}
 
 [Past front page news](index.html#news), in reverse chronological order.
 {: .right .inmargin}
