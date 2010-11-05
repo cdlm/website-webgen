@@ -23,6 +23,8 @@
 [Facebook]: http://www.facebook.com/damien.pollet
 [Flickr]: http://www.flickr.com/photos/damienpollet
 [Fotopedia]: http://fotopedia.com/users/damienpollet
+[GitHub]: http://www.github.com/cdlm
 [LastFM]: http://www.last.fm/user/cDlm
 [LinkedIn]: http://www.linkedin.com/in/damienpollet
 [Slideshare]: http://www.slideshare.net/damien.pollet
+[Viadeo]: http://www.viadeo.com/fr/profile/damien.pollet1
