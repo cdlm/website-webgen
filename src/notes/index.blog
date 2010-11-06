@@ -24,7 +24,7 @@ Listing only posts with tag **{title:}** — [see all posts…](./index.html)
 
 
 <% unless posts.first? %>
-  <p class="left"><%= context.node.link_to(posts.prev_node, :link_text => "Newer posts") %></p>
+  <p class="left"><%= context.node.link_to(posts.prev_node, :link_text => "Newer posts", "accesskey" => "j") %></p>
 <% end %>
 
 <% posts.each do |post|
@@ -48,7 +48,7 @@ Listing only posts with tag **{title:}** — [see all posts…](./index.html)
 <% end %>
 
 <% unless posts.last? %>
-  <p class="left"><%= context.node.link_to(posts.next_node, :link_text => "Older posts") %></p>
+  <p class="left"><%= context.node.link_to(posts.next_node, :link_text => "Older posts", "accesskey" => "k") %></p>
 <% end %>
 
 

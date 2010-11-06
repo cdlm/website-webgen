@@ -11,14 +11,14 @@ scripts:
 publications:
     index_path: index.en.html
     sort_info: 2
-research:
-    index_path: index.en.html
-    sort_info: 3
 software:
     index_path: index.en.html
-    sort_info: 4
+    sort_info: 3
 software/*:
     draft: true
+research:
+    index_path: index.en.html
+    sort_info: 4
 teaching:
     index_path: index.en.html
     sort_info: 5
