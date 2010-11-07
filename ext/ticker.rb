@@ -69,7 +69,7 @@ EOS
     end
 
     def dmy(date)
-      date.strftime '%d %b %G'
+      date.strftime '%d %b %Y'
     end
   end
 
