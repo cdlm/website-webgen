@@ -169,7 +169,9 @@ a
     li
       margin-bottom: 1ex
     a[name]
-      display: none
+      +inmargin
+      +left
+      visibility: hidden
     .title
       font-weight: bold
     .notes
